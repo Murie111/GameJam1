@@ -1,0 +1,36 @@
+{
+ "ProjectInfo": {
+  "Project": {
+   "Name": "GameJam1_WwiseProject",
+   "GUID": "{5EB4F70E-ED1A-4DF5-8283-6F79F42DB683}",
+   "Generator": "2024.1.8.8898"
+  },
+  "CacheRoot": "../../../../GameJam1_WwiseProject/.cache",
+  "Platforms": [
+   {
+    "Name": "Mac",
+    "GUID": "{C032DCC8-CD88-4CC5-8CAB-5DB7F9CA7375}",
+    "BasePlatform": "Mac",
+    "BasePlatformGUID": "{9C6217D5-DD11-4795-87C1-6CE02853C540}",
+    "Path": "../../../../GameJam1_WwiseProject/GeneratedSoundBanks/Mac"
+   },
+   {
+    "Name": "Windows",
+    "GUID": "{1A183216-C084-49B2-AC55-159AAA19C169}",
+    "BasePlatform": "Windows",
+    "BasePlatformGUID": "{6E0CB257-C6C8-4C5C-8366-2740DFC441EB}",
+    "Path": "../../../../GameJam1_WwiseProject/GeneratedSoundBanks/Windows"
+   }
+  ],
+  "Languages": [
+   {
+    "Name": "English(US)",
+    "Id": "684519430",
+    "GUID": "{96A6230B-7B7D-4310-B78D-A32DE81811FF}",
+    "Default": "true",
+    "UseAsStandIn": "true"
+   }
+  ],
+  "FileHash": "{83E1E781-5762-F17D-F6E4-980F2D1955A3}"
+ }
+}
