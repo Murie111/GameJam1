@@ -4,13 +4,16 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using Unity.VisualScripting;
+using UnityEngine.UIElements;
 
 public class DialogueManager : MonoBehaviour
 {
+    public Logic logicScript;
     public Text nameText;
     public Text dialogueText;
     public GameObject dialogueUI;
     public GameObject nextSentenceButton;
+    public GameObject resetButton;
     public Animator animator;
     public float textSpeed;
     private GameObject currentNPC;
@@ -138,6 +141,11 @@ public class DialogueManager : MonoBehaviour
                 yield return new WaitForSeconds(textSpeed);
                 neighbouroption2.SetActive(true);
             }
+            else if (letter == ('~'))
+            {
+                resetButton.SetActive(true);
+                nextSentenceButton.SetActive(false);
+            }
             else
             {
                 dialogueText.text += letter;
@@ -146,12 +154,13 @@ public class DialogueManager : MonoBehaviour
         }    
     }
     void EndDialogue(){
+        resetButton.SetActive(false);
         nextSentenceButton.SetActive(false);
+        logicScript.loadCheck();
         animator.SetBool("isOpen", false);
         NPCInteract passScript = (NPCInteract) currentNPC.GetComponent(typeof(NPCInteract));
         passScript.EndTalking();
-        loopCheckFindNPC = false;
-        loopCheckSwapImage = false;
+        
     }
 
 
@@ -168,12 +177,24 @@ public class DialogueManager : MonoBehaviour
     {
         names.Dequeue();
         sentences.Dequeue();
+        names.Dequeue();
+        sentences.Dequeue();
         nextSentenceButton.SetActive(true);
         DisplayNextSentence();
     }
     public void WrongResponse()
     {
         DisplayNextSentence();
+    }
+
+    public void ResetButton()
+    {
+        Debug.Log("resetting");
+        sentences.Clear();
+        names.Clear();
+        EndDialogue();
+        logicScript.spiral += 1;
+        logicScript.loadCheck();
     }
 
 }

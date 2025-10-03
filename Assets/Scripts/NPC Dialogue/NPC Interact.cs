@@ -8,6 +8,7 @@ public class NPCInteract : MonoBehaviour
     public Dialogue dialogue;
     private bool isTalking = false;
     public GameObject nextSentenceButton;
+    
 
 
     public void startDialogue()
