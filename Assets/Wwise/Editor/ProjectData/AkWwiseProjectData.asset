@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: a5baa8d7997bc14698bded0f93ec27e4
     GuidInternal: 
-    m_lastTime: -8584420906888602857
+    m_lastTime: -8584419186803972969
     List:
     - name: Soundbank
       guid: af129c7c03d1924d84310c9d336c8721
@@ -94,8 +94,144 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: ac350b233859414995bf1ce6f4c18109
     GuidInternal: 
-    m_lastTime: -8584420906888699101
-    List: []
+    m_lastTime: -8584419186803785923
+    List:
+    - name: Bin
+      guid: 505ea7e97093cd4ebb00bee0e813a27a
+      id: 647611012
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ac350b233859414995bf1ce6f4c18109
+      - ElementName: Bin
+        ObjectType: 3
+        guid: 505ea7e97093cd4ebb00bee0e813a27a
+      Path: Events\Default Work Unit\Bin
+      maxAttenuation: 0
+      maxDuration: 3
+      minDuration: 3
+    - name: Floorboard
+      guid: 6a0612f80b693240a06552cf33a58b09
+      id: 334178259
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ac350b233859414995bf1ce6f4c18109
+      - ElementName: Floorboard
+        ObjectType: 3
+        guid: 6a0612f80b693240a06552cf33a58b09
+      Path: Events\Default Work Unit\Floorboard
+      maxAttenuation: 0
+      maxDuration: 1.2126304
+      minDuration: 1.2126304
+    - name: Key_pickup
+      guid: f2d384f94e5b274e944723b0c706204c
+      id: 761761105
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ac350b233859414995bf1ce6f4c18109
+      - ElementName: Key_pickup
+        ObjectType: 3
+        guid: f2d384f94e5b274e944723b0c706204c
+      Path: Events\Default Work Unit\Key_pickup
+      maxAttenuation: 0
+      maxDuration: 1.0905669
+      minDuration: 1.0905669
+    - name: Maincharacter
+      guid: 0c901cfaf74d934994fb8af2e9f4c506
+      id: 1518239843
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ac350b233859414995bf1ce6f4c18109
+      - ElementName: Maincharacter
+        ObjectType: 3
+        guid: 0c901cfaf74d934994fb8af2e9f4c506
+      Path: Events\Default Work Unit\Maincharacter
+      maxAttenuation: 0
+      maxDuration: 0.140839
+      minDuration: 0.140839
+    - name: Neighbour
+      guid: 8eb753503781004e8fa7d29fdcaa744b
+      id: 1451837118
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ac350b233859414995bf1ce6f4c18109
+      - ElementName: Neighbour
+        ObjectType: 3
+        guid: 8eb753503781004e8fa7d29fdcaa744b
+      Path: Events\Default Work Unit\Neighbour
+      maxAttenuation: 0
+      maxDuration: 0.16505669
+      minDuration: 0.16505669
+    - name: Pencil
+      guid: 59459b6f5af2c8468a03d3e3ff2d73dd
+      id: 3809038802
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ac350b233859414995bf1ce6f4c18109
+      - ElementName: Pencil
+        ObjectType: 3
+        guid: 59459b6f5af2c8468a03d3e3ff2d73dd
+      Path: Events\Default Work Unit\Pencil
+      maxAttenuation: 0
+      maxDuration: 0.67945576
+      minDuration: 0.67945576
+    - name: Receptionist
+      guid: 41af589fdeb4bd42a5bd769bdd2f86ee
+      id: 3487933672
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ac350b233859414995bf1ce6f4c18109
+      - ElementName: Receptionist
+        ObjectType: 3
+        guid: 41af589fdeb4bd42a5bd769bdd2f86ee
+      Path: Events\Default Work Unit\Receptionist
+      maxAttenuation: 0
+      maxDuration: 0.14519274
+      minDuration: 0.14519274
+    - name: Roommate
+      guid: 0353667755ab4e41a09298886a275508
+      id: 1409351263
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ac350b233859414995bf1ce6f4c18109
+      - ElementName: Roommate
+        ObjectType: 3
+        guid: 0353667755ab4e41a09298886a275508
+      Path: Events\Default Work Unit\Roommate
+      maxAttenuation: 0
+      maxDuration: 3.0998414
+      minDuration: 3.0998414
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -153,7 +289,7 @@ MonoBehaviour:
     m_lastTime: -8584420906888577508
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 
+  ExpandedWaapiItemIds: 06000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0
