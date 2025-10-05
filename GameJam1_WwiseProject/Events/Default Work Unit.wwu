@@ -1,6 +1,100 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{230B35AC-5938-4941-95BF-1CE6F4C18109}" SchemaVersion="123">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{230B35AC-5938-4941-95BF-1CE6F4C18109}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{230B35AC-5938-4941-95BF-1CE6F4C18109}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Bin" ID="{E9A75E50-9370-4ECD-BB00-BEE0E813A27A}">
+					<ChildrenList>
+						<Action Name="" ID="{AEBBAC66-2A05-418A-8ADE-0504ABB6D646}" ShortID="972897175">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Bin" ID="{30190A9B-C510-44B0-98AD-B571A0765952}" WorkUnitID="{630F9E25-BA6C-4A4B-8F1C-D7D6E8514006}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Floorboard" ID="{F812066A-690B-4032-A065-52CF33A58B09}">
+					<ChildrenList>
+						<Action Name="" ID="{F076705C-E5D0-4042-856B-9D0882E7A22E}" ShortID="672487608">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Floorboard" ID="{10F4EC25-5390-449D-B181-A32A6723FCE0}" WorkUnitID="{630F9E25-BA6C-4A4B-8F1C-D7D6E8514006}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Roommate" ID="{77665303-AB55-414E-A092-98886A275508}">
+					<ChildrenList>
+						<Action Name="" ID="{6321D614-A6D5-415E-8850-13637DCDE1EB}" ShortID="198112986">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="3"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Roommate" ID="{015FC0DD-C3FF-44CB-A09E-C53B5274E8F2}" WorkUnitID="{630F9E25-BA6C-4A4B-8F1C-D7D6E8514006}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Neighbour" ID="{5053B78E-8137-4E00-8FA7-D29FDCAA744B}">
+					<ChildrenList>
+						<Action Name="" ID="{91F931D6-7E79-45F2-A2C2-25D277DB82FC}" ShortID="217911301">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Neighbour" ID="{D332F59E-58B6-46C7-9E1E-394DD94ED788}" WorkUnitID="{630F9E25-BA6C-4A4B-8F1C-D7D6E8514006}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Key_pickup" ID="{F984D3F2-5B4E-4E27-9447-23B0C706204C}">
+					<ChildrenList>
+						<Action Name="" ID="{B0866350-3C34-434B-8B8A-C7FE5E761B78}" ShortID="938748587">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Key pick up" ID="{807B0600-1CF1-4DDE-8296-152DA8ED82DD}" WorkUnitID="{630F9E25-BA6C-4A4B-8F1C-D7D6E8514006}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Receptionist" ID="{9F58AF41-B4DE-42BD-A5BD-769BDD2F86EE}">
+					<ChildrenList>
+						<Action Name="" ID="{7577FFC0-3207-414E-96EA-A509C52871A9}" ShortID="245777062">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Receptionist" ID="{91772F19-3A01-42ED-BF65-5B120E59AD61}" WorkUnitID="{630F9E25-BA6C-4A4B-8F1C-D7D6E8514006}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Maincharacter" ID="{FA1C900C-4DF7-4993-94FB-8AF2E9F4C506}">
+					<ChildrenList>
+						<Action Name="" ID="{DF08094E-635A-411B-AED9-FF1A9CB9B2CB}" ShortID="640310682">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Maincharacter" ID="{F6143E05-DEDB-498A-9CA8-E8462B99E544}" WorkUnitID="{630F9E25-BA6C-4A4B-8F1C-D7D6E8514006}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Pencil" ID="{6F9B4559-F25A-46C8-8A03-D3E3FF2D73DD}">
+					<ChildrenList>
+						<Action Name="" ID="{EC1FEDE5-E5D8-436A-9CF3-29ECD8F7ADC6}" ShortID="492471629">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Pencil" ID="{0802E729-CBE7-42FE-A361-C8B24CB8BE6D}" WorkUnitID="{630F9E25-BA6C-4A4B-8F1C-D7D6E8514006}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>
