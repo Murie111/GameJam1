@@ -15,7 +15,7 @@ public class NPCInteract : MonoBehaviour
     {
         Debug.Log("active!");
         isTalking = true;
-        TriggerDialogue();
+        Invoke("TriggerDialogue", 0.3f);
         nextSentenceButton.SetActive(true);
     }
 

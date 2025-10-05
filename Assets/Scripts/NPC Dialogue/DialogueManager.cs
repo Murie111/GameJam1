@@ -8,6 +8,7 @@ using UnityEngine.UIElements;
 
 public class DialogueManager : MonoBehaviour
 {
+    public RoomSwap roomSwap;
     public Logic logicScript;
     public Text nameText;
     public Text dialogueText;
@@ -45,7 +46,6 @@ public class DialogueManager : MonoBehaviour
     {
         instance = this;
     }
-
 
     public void StartDialogue (Dialogue dialogue){
 
@@ -137,9 +137,9 @@ public class DialogueManager : MonoBehaviour
             }
             else if (letter == ('9'))
             {
-                roommate1option1.SetActive(true);
-                yield return new WaitForSeconds(textSpeed);
                 neighbouroption2.SetActive(true);
+                yield return new WaitForSeconds(textSpeed);
+
             }
             else if (letter == ('~'))
             {
@@ -153,14 +153,18 @@ public class DialogueManager : MonoBehaviour
             }
         }    
     }
-    void EndDialogue(){
+    public void EndDialogue(){
         resetButton.SetActive(false);
         nextSentenceButton.SetActive(false);
-        logicScript.loadCheck();
+        logicScript.passBlink();
         animator.SetBool("isOpen", false);
         NPCInteract passScript = (NPCInteract) currentNPC.GetComponent(typeof(NPCInteract));
         passScript.EndTalking();
-        
+        if(logicScript.passedRec == false)
+        {
+            roomSwap.DialogueEnd();
+        }
+
     }
 
 
@@ -192,9 +196,14 @@ public class DialogueManager : MonoBehaviour
         Debug.Log("resetting");
         sentences.Clear();
         names.Clear();
-        EndDialogue();
+        resetButton.SetActive(false);
+        nextSentenceButton.SetActive(false);
+        animator.SetBool("isOpen", false);
+        NPCInteract passScript = (NPCInteract)currentNPC.GetComponent(typeof(NPCInteract));
+        passScript.EndTalking();
         logicScript.spiral += 1;
-        logicScript.loadCheck();
+        logicScript.failBlink();
+
     }
 
 }

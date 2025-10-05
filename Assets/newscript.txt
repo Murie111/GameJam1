@@ -1,0 +1,63 @@
+Roommate conversation 1
+
+Rm: Hey.
+Rm: How are you doing?
+S:  >fine >X terrible
+S:  I'm doing fine.
+Rm: Are you going to do something today?
+S: >X Bed >I'm free
+S: I'm free to do anything.
+Rm: Good, you can take this washing down for once.
+S: (I really should take this to the laundry room downstairs)
+
+Receptionist conversation 1
+
+Rcp: Excuse me, the laundry room is locked today.
+S: >X Complain >Insist
+(If I start to complain, I worry she might kick me out)
+S: I need to do the washing or my roommates' going to kill me.
+Rcp: Well tough luck, you'll have to do it another day.
+S: >Ignore >X Leave
+(I can't even do something as simple as laundry...)
+S: (The laundry room is downstairs, and so is the staff room)
+S: (She may have left a spare key in there)
+
+Roommate conversation 2
+
+Rm: Finally, you're done
+S: I'm going to go back to my room
+Rm: Don't think you're done after just one thing, take this trash down to the lobby
+S: >Sure >X You do it
+
+Receptionist conversation 2
+
+Rcp: Hey! Did you go into the staff room?
+S: >X No... >Yeah, sorry
+S: Yeah, I really needed to do my laundry, sorry.
+Rcp: Well you're not supposed to go in there. I could have you evicted for this
+S: >Apologise >X Don't care
+S: look I'm really sorry, I won't do it again.
+Rcp: alright, I'll let this go if you deliver this letter to the guy in the unit next to yours.
+S: Okay, sure.
+
+Neighbour conversation 
+
+Nb: What do you want?
+Nb: Have you got something for me?
+S: >Letter >X Package
+S: I've got this letter for you, I was asked to deliver it.
+Nb: I wasn't expecting any letter.
+S: >X Insist >Explain
+S: It's from the reception. 
+Nb: Fine then, hand it over already.
+S: (I'm going back to bed...)
+
+End conversation 
+
+Rm: Hello!
+S: Hey.
+Rm: I haven't seen you in a while.
+Rm: Are you doing okay?
+S: >-fine- >Can I talk to you.
+S: Can I talk to you?
+S: I think I need help.

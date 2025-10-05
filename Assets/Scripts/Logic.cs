@@ -3,6 +3,7 @@ using UnityEngine;
 
 public class Logic : MonoBehaviour
 {
+    public DialogueManager DialogueManager;
     public bool talkedToRoommate1;//hasWashing-receptionistInBasement 
     public bool talkedToReceptionistBasement;//staffRoomOpen
     public bool hasKey;
@@ -11,6 +12,8 @@ public class Logic : MonoBehaviour
     public bool talkedToReceptionistLobby;//hasLetter-neighbourAvailable
     public bool doneBins;
     public bool talkedToNeighbour;//letterDelivered
+
+    public bool passedRec;
 
     public int checkpoint; //1-kitchen 2-basementhall 3-lobby 4-hallneighbour
 
@@ -34,6 +37,13 @@ public class Logic : MonoBehaviour
     //num of loops
     public int spiral;
 
+    public GameObject lobby1f;
+    public GameObject lobbyBins;
+    public GameObject lobbyB1;
+
+    public GameObject whiteBlink;
+    public float animTimeFull;
+    public float animTimeClose;
     public void roommateConversation1()
     {
         talkedToRoommate1 = true;
@@ -86,6 +96,24 @@ public class Logic : MonoBehaviour
         checkpoint = 4;
     }
 
+    public void failBlink()
+    {
+        whiteBlink.SetActive(true);
+        Invoke("loadCheck", animTimeClose);
+        Invoke("whiteAnimStop", animTimeFull);
+    }
+
+    public void passBlink()
+    {
+        Invoke("loadCheck", animTimeClose);
+
+    }
+
+    void whiteAnimStop()
+    {
+        whiteBlink.SetActive(false);
+    }
+
     public void loadCheck()
     {
         if (checkpoint == 1)
@@ -100,14 +128,34 @@ public class Logic : MonoBehaviour
         }
         if (checkpoint == 3)
         {
-            talkLobby.SetActive(false);
-            lobbyCheckpoint.SetActive(true);
+            if (!passedRec)
+            {
+                talkLobby.SetActive(false);
+                lobbyCheckpoint.SetActive(true);
+            }
+            else
+            {
+                passedRec = false;
+                lobby1f.SetActive(true);
+                lobbyB1.SetActive(true);
+                if (doneWashing)
+                {
+                    lobbyBins.SetActive(true);
+                }
+            }
         }
         if (checkpoint == 4)
         {
             talkNeighbour.SetActive(false);
             neighbourCheckpoint.SetActive(true);
         }
+        
     }
+
+    public void setRec()
+    {
+        passedRec = true;
+    }
+
 }
 
