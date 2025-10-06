@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{7C9C12AF-D103-4D92-8431-0C9D336C8721}",
     "Language": "SFX",
-    "Hash": "{DE1EACF2-84A9-182F-DE3D-59E655788456}",
+    "Hash": "{B4D43621-41F1-1187-1DBD-4D3BB4C1E8C4}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Soundbank",
     "ShortName": "Soundbank",
     "Path": "Soundbank.bnk",
@@ -46,6 +46,14 @@
       "Location": "Memory",
       "ShortName": "Roomate voice (3).wav",
       "CachePath": "C8/{C8C7E24C-C3F0-37DE-4919-CB6EB30D66C1}.wem"
+     },
+     {
+      "Id": "155366820",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "washing machiene .wav",
+      "CachePath": "3C/{3C58F213-255F-5C63-177B-9FCF9DA12D09}.wem"
      },
      {
       "Id": "175016844",
@@ -497,6 +505,20 @@
       ]
      },
      {
+      "Id": "768697242",
+      "Name": "Washing_machine",
+      "ObjectPath": "\\Events\\Default Work Unit\\Washing_machine",
+      "GUID": "{377124F4-0C57-4E96-B48C-D21DC13DB9B6}",
+      "DurationType": "OneShot",
+      "DurationMin": "5.2602496",
+      "DurationMax": "5.2602496",
+      "MediaRefs": [
+       {
+        "Id": "155366820"
+       }
+      ]
+     },
+     {
       "Id": "1537061107",
       "Name": "Wind",
       "ObjectPath": "\\Events\\Default Work Unit\\Wind",
@@ -511,6 +533,6 @@
     ]
    }
   ],
-  "FileHash": "{67D66850-F1B7-6D3F-C266-2602A029C1E0}"
+  "FileHash": "{3CBEBF4F-FD5D-BE8A-8E3F-2B317ED4CFEB}"
  }
 }

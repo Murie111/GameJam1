@@ -26,6 +26,7 @@ namespace AK
         static const AkUniqueID WALKING_CARPET = 1239048424U;
         static const AkUniqueID WALKING_SLAB = 593413861U;
         static const AkUniqueID WALKING_WOOD = 3451145406U;
+        static const AkUniqueID WASHING_MACHINE = 768697242U;
         static const AkUniqueID WIND = 1537061107U;
     } // namespace EVENTS
 

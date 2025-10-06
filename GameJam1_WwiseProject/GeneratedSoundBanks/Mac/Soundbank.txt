@@ -3,6 +3,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	593413861	Walking_slab			\Default Work Unit\Walking_slab	
 	647611012	Bin			\Default Work Unit\Bin	
 	761761105	Key_pickup			\Default Work Unit\Key_pickup	
+	768697242	Washing_machine			\Default Work Unit\Washing_machine	
 	1239048424	Walking_carpet			\Default Work Unit\Walking_carpet	
 	1409351263	Roommate			\Default Work Unit\Roommate	
 	1436086644	Tv_static			\Default Work Unit\Tv_static	
@@ -19,6 +20,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	8757991	Neighbore (4)	C:\Users\rober\Documents\GitHub\GameJam1\GameJam1_WwiseProject\.cache\A8\{A81CFC13-FB46-91BD-FA53-D3D63CDF125A}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Neighbour\Neighbore (4)		29212
 	30601288	Main character (2)	C:\Users\rober\Documents\GitHub\GameJam1\GameJam1_WwiseProject\.cache\9A\{9ABE534E-6A54-B0F1-4B34-FCB558272903}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Maincharacter\Main character (2)		24940
 	119563857	Roomate voice (3)	C:\Users\rober\Documents\GitHub\GameJam1\GameJam1_WwiseProject\.cache\C8\{C8C7E24C-C3F0-37DE-4919-CB6EB30D66C1}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Roommate\Roomate voice (3)		17708
+	155366820	washing machiene	C:\Users\rober\Documents\GitHub\GameJam1\GameJam1_WwiseProject\.cache\3C\{3C58F213-255F-5C63-177B-9FCF9DA12D09}.wem		\Actor-Mixer Hierarchy\Default Work Unit\washing machiene		928004
 	175016844	Floorboard	C:\Users\rober\Documents\GitHub\GameJam1\GameJam1_WwiseProject\.cache\71\{717A86BD-13BA-3EB9-044F-D389F86B1B32}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Floorboard		214004
 	215928113	Roomate voice (4)	C:\Users\rober\Documents\GitHub\GameJam1\GameJam1_WwiseProject\.cache\17\{179C5E0B-A4F3-97A1-308D-4E36524E5E8E}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Roommate\Roomate voice (4)		17708
 	232246780	Neighbore (1)	C:\Users\rober\Documents\GitHub\GameJam1\GameJam1_WwiseProject\.cache\EF\{EF456850-A399-6765-79DA-A5A76655B2EA}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Neighbour\Neighbore (1)		29212
