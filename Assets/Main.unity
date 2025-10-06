@@ -5400,7 +5400,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 2100000, guid: 7de3a380d2c4c8e499f46710fa066afc, type: 2}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
@@ -5473,6 +5473,10 @@ MonoBehaviour:
   receptionist2option2: {fileID: 1306859029}
   neighbouroption1: {fileID: 1764498007}
   neighbouroption2: {fileID: 1431697634}
+  roommateTalk:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 393a49dc7e445b54ead7befbf5a02a7b, type: 2}
 --- !u!4 &949340345
 Transform:
   m_ObjectHideFlags: 0
@@ -11884,6 +11888,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1967267413}
   - component: {fileID: 1967267412}
+  - component: {fileID: 1967267414}
   m_Layer: 0
   m_Name: WwiseGlobal
   m_TagString: Untagged
@@ -11931,6 +11936,31 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1967267414
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1967267411}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1b561b2a47615b4693bd17f9bf82309, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerList: ae8d9d44
+  useOtherObject: 0
+  data:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 27367dc1df8da504e8016873b8dee1f9, type: 2}
+  decodeBank: 0
+  overrideLoadSetting: 0
+  loadAsynchronous: 0
+  saveDecodedBank: 0
+  unloadTriggerList: 958ca0ea
+  bankNameInternal: 
+  valueGuidInternal: 
 --- !u!1 &1971198470
 GameObject:
   m_ObjectHideFlags: 0

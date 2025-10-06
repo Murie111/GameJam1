@@ -126,7 +126,7 @@ Material:
     - _Noise_Scale: 1000
     - _OcclusionStrength: 1
     - _Parallax: 0.005
-    - _PixelRatio: 256
+    - _PixelRatio: 128
     - _Pixel_Factor: 1000
     - _Pixel_Ratio: 256
     - _QueueOffset: 0
