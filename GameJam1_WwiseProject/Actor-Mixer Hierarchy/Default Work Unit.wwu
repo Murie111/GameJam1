@@ -862,6 +862,28 @@
 						<ActiveSource Name="wind_actual" ID="{0288C2B5-737D-4AB3-85C8-622532B539EC}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<Sound Name="washing machiene" ID="{7721EB81-617B-4007-8420-023D5BE9389F}" ShortID="708229890">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C806748E-9264-49DF-A61D-13BEC75CDB7D}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20CBC497-9608-483E-8774-F62F20DDF877}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="washing machiene" ID="{CC65C047-6315-45F8-A338-5069506E87D3}">
+							<Language>SFX</Language>
+							<AudioFile>washing machiene .wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="155366820"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="washing machiene" ID="{CC65C047-6315-45F8-A338-5069506E87D3}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

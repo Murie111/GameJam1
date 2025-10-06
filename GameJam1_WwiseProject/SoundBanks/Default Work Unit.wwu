@@ -18,6 +18,7 @@
 						<ObjectRef Name="Wind" ID="{C00B323F-CF95-4BE2-B774-E39E6D097612}" WorkUnitID="{230B35AC-5938-4941-95BF-1CE6F4C18109}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Neighbour" ID="{5053B78E-8137-4E00-8FA7-D29FDCAA744B}" WorkUnitID="{230B35AC-5938-4941-95BF-1CE6F4C18109}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Key_pickup" ID="{F984D3F2-5B4E-4E27-9447-23B0C706204C}" WorkUnitID="{230B35AC-5938-4941-95BF-1CE6F4C18109}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Washing_machine" ID="{377124F4-0C57-4E96-B48C-D21DC13DB9B6}" WorkUnitID="{230B35AC-5938-4941-95BF-1CE6F4C18109}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Bin" ID="{E9A75E50-9370-4ECD-BB00-BEE0E813A27A}" WorkUnitID="{230B35AC-5938-4941-95BF-1CE6F4C18109}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
