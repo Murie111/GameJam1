@@ -4,6 +4,15 @@
 		<WorkUnit Name="Default Work Unit" ID="{630F9E25-BA6C-4A4B-8F1C-D7D6E8514006}" PersistMode="Standalone">
 			<ChildrenList>
 				<Sound Name="Bin" ID="{30190A9B-C510-44B0-98AD-B571A0765952}" ShortID="994237173">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{1EA7E08C-CD72-4FAC-915D-03C1A2996515}"/>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C806748E-9264-49DF-A61D-13BEC75CDB7D}"/>
@@ -26,6 +35,15 @@
 					</ActiveSourceList>
 				</Sound>
 				<Sound Name="Floorboard" ID="{10F4EC25-5390-449D-B181-A32A6723FCE0}" ShortID="352563019">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{B2D25F79-0813-4C37-B4E8-2E47BB0D817F}"/>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C806748E-9264-49DF-A61D-13BEC75CDB7D}"/>
@@ -48,6 +66,15 @@
 					</ActiveSourceList>
 				</Sound>
 				<RandomSequenceContainer Name="Roommate" ID="{015FC0DD-C3FF-44CB-A09E-C53B5274E8F2}" ShortID="296199260">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{3AE451B8-7B28-4597-B191-5E976E3B761F}"/>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C806748E-9264-49DF-A61D-13BEC75CDB7D}"/>
@@ -148,6 +175,15 @@
 					</ChildrenList>
 				</RandomSequenceContainer>
 				<RandomSequenceContainer Name="Neighbour" ID="{D332F59E-58B6-46C7-9E1E-394DD94ED788}" ShortID="781446706">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{E5C8321B-675E-4C0D-8047-7E51E8D9A031}"/>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C806748E-9264-49DF-A61D-13BEC75CDB7D}"/>
@@ -326,6 +362,15 @@
 					</ChildrenList>
 				</RandomSequenceContainer>
 				<Sound Name="Key pick up" ID="{807B0600-1CF1-4DDE-8296-152DA8ED82DD}" ShortID="639928449">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{FB9C51A2-ED9F-4DB1-BA46-9503E027FD0D}"/>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C806748E-9264-49DF-A61D-13BEC75CDB7D}"/>
@@ -348,6 +393,15 @@
 					</ActiveSourceList>
 				</Sound>
 				<RandomSequenceContainer Name="Maincharacter" ID="{F6143E05-DEDB-498A-9CA8-E8462B99E544}" ShortID="619896266">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{17BC70FC-433A-401C-BA6C-B334D851F7FF}"/>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C806748E-9264-49DF-A61D-13BEC75CDB7D}"/>
@@ -448,6 +502,15 @@
 					</ChildrenList>
 				</RandomSequenceContainer>
 				<RandomSequenceContainer Name="Receptionist" ID="{91772F19-3A01-42ED-BF65-5B120E59AD61}" ShortID="739088809">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{DF445CEB-3A80-400B-93F1-9CE9A077BD83}"/>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C806748E-9264-49DF-A61D-13BEC75CDB7D}"/>
@@ -543,6 +606,164 @@
 							</ChildrenList>
 							<ActiveSourceList>
 								<ActiveSource Name="Receptionist (4)" ID="{D11B07DC-83F9-4F18-9337-356BF7A1B6C7}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="CarpetWalk" ID="{A866C3F0-E9AB-4506-BE64-6B2CE83217E8}" ShortID="153619462">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{2B4064A7-EBB5-461C-9E02-081E7846FD49}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="200"/>
+											<Property Name="Min" Type="Real64" Value="-200"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C806748E-9264-49DF-A61D-13BEC75CDB7D}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20CBC497-9608-483E-8774-F62F20DDF877}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Walking (carpet 1)" ID="{72BB4A36-3BFC-46C0-9A1A-D6D37057398A}" ShortID="161040719">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C806748E-9264-49DF-A61D-13BEC75CDB7D}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20CBC497-9608-483E-8774-F62F20DDF877}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Walking (carpet 1)" ID="{CEB09D2F-B57B-4366-91F6-98D0A46531A7}">
+									<Language>SFX</Language>
+									<AudioFile>Walking (carpet 1).wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="772332903"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Walking (carpet 1)" ID="{CEB09D2F-B57B-4366-91F6-98D0A46531A7}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Walking (carpet 2)" ID="{CD323470-198A-4560-B9D0-2CB4E57E91F8}" ShortID="909918097">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C806748E-9264-49DF-A61D-13BEC75CDB7D}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20CBC497-9608-483E-8774-F62F20DDF877}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Walking (carpet 2)" ID="{4907F8A4-2F4B-494B-AB99-9803BB743066}">
+									<Language>SFX</Language>
+									<AudioFile>Walking (carpet 2).wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="641809866"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Walking (carpet 2)" ID="{4907F8A4-2F4B-494B-AB99-9803BB743066}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Walking (carpet 3)" ID="{D815F44B-34CC-4800-9BC4-5503812EEEE9}" ShortID="806180161">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C806748E-9264-49DF-A61D-13BEC75CDB7D}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20CBC497-9608-483E-8774-F62F20DDF877}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Walking (carpet 3)" ID="{F48C83D3-A0CB-484F-9694-EFE2A547659B}">
+									<Language>SFX</Language>
+									<AudioFile>Walking (carpet 3).wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="470386043"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Walking (carpet 3)" ID="{F48C83D3-A0CB-484F-9694-EFE2A547659B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="CoughingMan" ID="{27769E59-EA22-40B1-B44F-F9EFF496F4F0}" ShortID="492606665">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{0B0BD743-CEE3-48B9-BC74-0D5025298905}"/>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C806748E-9264-49DF-A61D-13BEC75CDB7D}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20CBC497-9608-483E-8774-F62F20DDF877}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Man cough 1" ID="{446F0991-1711-4D61-B96D-2483AE65BFF7}" ShortID="380496219">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C806748E-9264-49DF-A61D-13BEC75CDB7D}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20CBC497-9608-483E-8774-F62F20DDF877}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Man cough 1" ID="{C2B26159-0DC5-479E-85A4-B7D8BEA21B63}">
+									<Language>SFX</Language>
+									<AudioFile>Man cough 1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1058881086"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Man cough 1" ID="{C2B26159-0DC5-479E-85A4-B7D8BEA21B63}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Man cough 2" ID="{27B9261D-7BD8-4AB6-8938-A1D88BE126B7}" ShortID="987516550">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C806748E-9264-49DF-A61D-13BEC75CDB7D}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20CBC497-9608-483E-8774-F62F20DDF877}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Man cough 2" ID="{202BCA2D-AF72-46E1-9573-3C7D6EA831CB}">
+									<Language>SFX</Language>
+									<AudioFile>Man cough 2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="235901378"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Man cough 2" ID="{202BCA2D-AF72-46E1-9573-3C7D6EA831CB}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>

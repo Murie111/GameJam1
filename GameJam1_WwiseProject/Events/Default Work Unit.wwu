@@ -27,10 +27,7 @@
 				</Event>
 				<Event Name="Roommate" ID="{77665303-AB55-414E-A092-98886A275508}">
 					<ChildrenList>
-						<Action Name="" ID="{6321D614-A6D5-415E-8850-13637DCDE1EB}" ShortID="198112986">
-							<PropertyList>
-								<Property Name="Delay" Type="Real64" Value="3"/>
-							</PropertyList>
+						<Action Name="" ID="{809F39E1-119D-4467-A783-B4D852A3C625}" ShortID="836272244">
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Roommate" ID="{015FC0DD-C3FF-44CB-A09E-C53B5274E8F2}" WorkUnitID="{630F9E25-BA6C-4A4B-8F1C-D7D6E8514006}"/>
@@ -89,6 +86,28 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Pencil" ID="{0802E729-CBE7-42FE-A361-C8B24CB8BE6D}" WorkUnitID="{630F9E25-BA6C-4A4B-8F1C-D7D6E8514006}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Walking_carpet" ID="{D24D7E45-C3BE-4233-B3B6-1C2FC213D50C}">
+					<ChildrenList>
+						<Action Name="" ID="{7B16C52D-8FBA-452C-BAB5-B115222105DA}" ShortID="687191035">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="CarpetWalk" ID="{A866C3F0-E9AB-4506-BE64-6B2CE83217E8}" WorkUnitID="{630F9E25-BA6C-4A4B-8F1C-D7D6E8514006}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Coughing" ID="{37603E44-4D07-43B2-9152-D98FDF9F1F3E}">
+					<ChildrenList>
+						<Action Name="" ID="{DB827CF7-3239-4CE6-81C0-8C978F8B49C1}" ShortID="323546517">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="CoughingMan" ID="{27769E59-EA22-40B1-B44F-F9EFF496F4F0}" WorkUnitID="{630F9E25-BA6C-4A4B-8F1C-D7D6E8514006}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
