@@ -14,6 +14,7 @@ namespace AK
     namespace EVENTS
     {
         static const AkUniqueID BIN = 647611012U;
+        static const AkUniqueID COUGHING = 2427782015U;
         static const AkUniqueID FLOORBOARD = 334178259U;
         static const AkUniqueID KEY_PICKUP = 761761105U;
         static const AkUniqueID MAINCHARACTER = 1518239843U;
@@ -21,6 +22,7 @@ namespace AK
         static const AkUniqueID PENCIL = 3809038802U;
         static const AkUniqueID RECEPTIONIST = 3487933672U;
         static const AkUniqueID ROOMMATE = 1409351263U;
+        static const AkUniqueID WALKING_CARPET = 1239048424U;
     } // namespace EVENTS
 
     namespace BANKS
