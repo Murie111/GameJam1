@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: a5baa8d7997bc14698bded0f93ec27e4
     GuidInternal: 
-    m_lastTime: -8584419186803972969
+    m_lastTime: -8584418468616162872
     List:
     - name: Soundbank
       guid: af129c7c03d1924d84310c9d336c8721
@@ -94,7 +94,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: ac350b233859414995bf1ce6f4c18109
     GuidInternal: 
-    m_lastTime: -8584419186803785923
+    m_lastTime: -8584418468615886554
     List:
     - name: Bin
       guid: 505ea7e97093cd4ebb00bee0e813a27a
@@ -113,6 +113,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 3
       minDuration: 3
+    - name: Coughing
+      guid: 443e6037074db2439152d98fdf9f1f3e
+      id: 2427782015
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ac350b233859414995bf1ce6f4c18109
+      - ElementName: Coughing
+        ObjectType: 3
+        guid: 443e6037074db2439152d98fdf9f1f3e
+      Path: Events\Default Work Unit\Coughing
+      maxAttenuation: 0
+      maxDuration: 2.174558
+      minDuration: 1.71
     - name: Floorboard
       guid: 6a0612f80b693240a06552cf33a58b09
       id: 334178259
@@ -230,8 +247,76 @@ MonoBehaviour:
         guid: 0353667755ab4e41a09298886a275508
       Path: Events\Default Work Unit\Roommate
       maxAttenuation: 0
-      maxDuration: 3.0998414
-      minDuration: 3.0998414
+      maxDuration: 0.09984127
+      minDuration: 0.09984127
+    - name: Walking_carpet
+      guid: 457e4dd2bec33342b3b61c2fc213d50c
+      id: 1239048424
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ac350b233859414995bf1ce6f4c18109
+      - ElementName: Walking_carpet
+        ObjectType: 3
+        guid: 457e4dd2bec33342b3b61c2fc213d50c
+      Path: Events\Default Work Unit\Walking_carpet
+      maxAttenuation: 0
+      maxDuration: 1.1427479
+      minDuration: 0.54169065
+    - name: Walking_slab
+      guid: d43d61609876c7409f4d093ae6febb92
+      id: 593413861
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ac350b233859414995bf1ce6f4c18109
+      - ElementName: Walking_slab
+        ObjectType: 3
+        guid: d43d61609876c7409f4d093ae6febb92
+      Path: Events\Default Work Unit\Walking_slab
+      maxAttenuation: 0
+      maxDuration: 1.0155329
+      minDuration: 1.0155329
+    - name: Walking_wood
+      guid: f76545ee52b039459178cd46f1572db5
+      id: 3451145406
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ac350b233859414995bf1ce6f4c18109
+      - ElementName: Walking_wood
+        ObjectType: 3
+        guid: f76545ee52b039459178cd46f1572db5
+      Path: Events\Default Work Unit\Walking_wood
+      maxAttenuation: 0
+      maxDuration: 0.646576
+      minDuration: 0.646576
+    - name: Wind
+      guid: b1c1975936e7af42aafc67d8fd4da447
+      id: 1537061107
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ac350b233859414995bf1ce6f4c18109
+      - ElementName: Wind
+        ObjectType: 3
+        guid: b1c1975936e7af42aafc67d8fd4da447
+      Path: Events\Default Work Unit\Wind
+      maxAttenuation: 0
+      maxDuration: 10.5
+      minDuration: 10.5
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:

@@ -113,6 +113,39 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Wind" ID="{5997C1B1-E736-42AF-AAFC-67D8FD4DA447}">
+					<ChildrenList>
+						<Action Name="" ID="{D4037B92-F148-4AFF-B720-FD3841A554EE}" ShortID="782349477">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Wind" ID="{3381FD21-BAAC-4AC1-986D-A9FE48343A46}" WorkUnitID="{630F9E25-BA6C-4A4B-8F1C-D7D6E8514006}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Walking_slab" ID="{60613DD4-7698-40C7-9F4D-093AE6FEBB92}">
+					<ChildrenList>
+						<Action Name="" ID="{A0C0E814-763E-4C5E-A7C5-4E3F36DE8D49}" ShortID="101764528">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Walking (slabs 1)" ID="{74658D31-A42C-43C9-81FF-99524D23CB54}" WorkUnitID="{630F9E25-BA6C-4A4B-8F1C-D7D6E8514006}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Walking_wood" ID="{EE4565F7-B052-4539-9178-CD46F1572DB5}">
+					<ChildrenList>
+						<Action Name="" ID="{676F61FA-F411-43A3-B1DC-B09C925AB5AB}" ShortID="22224658">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Walking (Wood 1)" ID="{8CABC8F8-F887-4C43-8258-959412A68580}" WorkUnitID="{630F9E25-BA6C-4A4B-8F1C-D7D6E8514006}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
