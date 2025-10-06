@@ -5,6 +5,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	761761105	Key_pickup			\Default Work Unit\Key_pickup	
 	1239048424	Walking_carpet			\Default Work Unit\Walking_carpet	
 	1409351263	Roommate			\Default Work Unit\Roommate	
+	1436086644	Tv_static			\Default Work Unit\Tv_static	
 	1451837118	Neighbour			\Default Work Unit\Neighbour	
 	1518239843	Maincharacter			\Default Work Unit\Maincharacter	
 	1537061107	Wind			\Default Work Unit\Wind	
@@ -32,6 +33,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	485441434	Main character (1)	C:\Users\rober\Documents\GitHub\GameJam1\GameJam1_WwiseProject\.cache\22\{2297909B-8125-B5E1-C970-360BB3FE4B50}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Maincharacter\Main character (1)		24940
 	563101861	Main character (3)	C:\Users\rober\Documents\GitHub\GameJam1\GameJam1_WwiseProject\.cache\D9\{D9B3E162-C916-8F46-BDA0-AC9E7756687C}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Maincharacter\Main character (3)		24940
 	641809866	Walking (carpet 2)	C:\Users\rober\Documents\GitHub\GameJam1\GameJam1_WwiseProject\.cache\DC\{DC572E25-9F7D-B3FA-719C-4375FB1B7AB9}.wem		\Actor-Mixer Hierarchy\Default Work Unit\CarpetWalk\Walking (carpet 2)		179684
+	646609325	wind_actual	C:\Users\rober\Documents\GitHub\GameJam1\GameJam1_WwiseProject\.cache\2F\{2F73D708-A354-2661-27DB-83561F892D8E}.wem		\Actor-Mixer Hierarchy\Default Work Unit\wind_actual		1852296
 	671376253	Neighbore (2)	C:\Users\rober\Documents\GitHub\GameJam1\GameJam1_WwiseProject\.cache\39\{39DCFBA0-7A0F-A372-D346-B74238B6FE55}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Neighbour\Neighbore (2)		29212
 	681407878	Roomate voice (1)	C:\Users\rober\Documents\GitHub\GameJam1\GameJam1_WwiseProject\.cache\C6\{C66777A3-8E1B-51E0-7139-65F7E88C7A3A}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Roommate\Roomate voice (1)		17708
 	772332903	Walking (carpet 1)	C:\Users\rober\Documents\GitHub\GameJam1\GameJam1_WwiseProject\.cache\2E\{2E08C27D-B4AD-B833-D223-216E2F028C60}.wem		\Actor-Mixer Hierarchy\Default Work Unit\CarpetWalk\Walking (carpet 1)		110932
@@ -41,7 +43,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	883642861	Pencil (1)	C:\Users\rober\Documents\GitHub\GameJam1\GameJam1_WwiseProject\.cache\F9\{F96E13C2-A1E6-D1CB-2876-041271E6D025}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pencil\Pencil (1)		119952
 	978832667	Receptionist (1)	C:\Users\rober\Documents\GitHub\GameJam1\GameJam1_WwiseProject\.cache\87\{872692A9-A2E9-E959-BE40-48DF98F19913}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Receptionist\Receptionist (1)		25708
 	1007741079	Bin	C:\Users\rober\Documents\GitHub\GameJam1\GameJam1_WwiseProject\.cache\98\{982D0EC0-8E1A-69DD-346F-9DB22C779F4F}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Bin		529296
-	1033729391	Wind	C:\Users\rober\Documents\GitHub\GameJam1\GameJam1_WwiseProject\.cache\84\{8424A8AD-E7EE-81CF-0D62-05DFCB7453B4}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Wind		1852296
+	1033729391	Tvstatic	C:\Users\rober\Documents\GitHub\GameJam1\GameJam1_WwiseProject\.cache\64\{640A7383-5D65-B8DA-E3DD-B29D658E32F1}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Tvstatic		1852296
 	1058881086	Man cough 1	C:\Users\rober\Documents\GitHub\GameJam1\GameJam1_WwiseProject\.cache\03\{03910719-D900-46BA-8619-FE3E4CA282A2}.wem		\Actor-Mixer Hierarchy\Default Work Unit\CoughingMan\Man cough 1		301740
 	1069221534	Key pick up	C:\Users\rober\Documents\GitHub\GameJam1\GameJam1_WwiseProject\.cache\6E\{6E3645BD-D56E-83E7-F0F5-83250B887BD2}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Key pick up		192472
 

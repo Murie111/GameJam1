@@ -22,6 +22,7 @@ namespace AK
         static const AkUniqueID PENCIL = 3809038802U;
         static const AkUniqueID RECEPTIONIST = 3487933672U;
         static const AkUniqueID ROOMMATE = 1409351263U;
+        static const AkUniqueID TV_STATIC = 1436086644U;
         static const AkUniqueID WALKING_CARPET = 1239048424U;
         static const AkUniqueID WALKING_SLAB = 593413861U;
         static const AkUniqueID WALKING_WOOD = 3451145406U;

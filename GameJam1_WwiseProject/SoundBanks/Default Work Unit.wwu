@@ -9,12 +9,13 @@
 						<ObjectRef Name="Walking_slab" ID="{60613DD4-7698-40C7-9F4D-093AE6FEBB92}" WorkUnitID="{230B35AC-5938-4941-95BF-1CE6F4C18109}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Roommate" ID="{77665303-AB55-414E-A092-98886A275508}" WorkUnitID="{230B35AC-5938-4941-95BF-1CE6F4C18109}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Walking_carpet" ID="{D24D7E45-C3BE-4233-B3B6-1C2FC213D50C}" WorkUnitID="{230B35AC-5938-4941-95BF-1CE6F4C18109}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Wind" ID="{5997C1B1-E736-42AF-AAFC-67D8FD4DA447}" WorkUnitID="{230B35AC-5938-4941-95BF-1CE6F4C18109}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Tv_static" ID="{5997C1B1-E736-42AF-AAFC-67D8FD4DA447}" WorkUnitID="{230B35AC-5938-4941-95BF-1CE6F4C18109}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Receptionist" ID="{9F58AF41-B4DE-42BD-A5BD-769BDD2F86EE}" WorkUnitID="{230B35AC-5938-4941-95BF-1CE6F4C18109}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Coughing" ID="{37603E44-4D07-43B2-9152-D98FDF9F1F3E}" WorkUnitID="{230B35AC-5938-4941-95BF-1CE6F4C18109}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Walking_wood" ID="{EE4565F7-B052-4539-9178-CD46F1572DB5}" WorkUnitID="{230B35AC-5938-4941-95BF-1CE6F4C18109}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Pencil" ID="{6F9B4559-F25A-46C8-8A03-D3E3FF2D73DD}" WorkUnitID="{230B35AC-5938-4941-95BF-1CE6F4C18109}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Maincharacter" ID="{FA1C900C-4DF7-4993-94FB-8AF2E9F4C506}" WorkUnitID="{230B35AC-5938-4941-95BF-1CE6F4C18109}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Wind" ID="{C00B323F-CF95-4BE2-B774-E39E6D097612}" WorkUnitID="{230B35AC-5938-4941-95BF-1CE6F4C18109}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Neighbour" ID="{5053B78E-8137-4E00-8FA7-D29FDCAA744B}" WorkUnitID="{230B35AC-5938-4941-95BF-1CE6F4C18109}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Key_pickup" ID="{F984D3F2-5B4E-4E27-9447-23B0C706204C}" WorkUnitID="{230B35AC-5938-4941-95BF-1CE6F4C18109}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Bin" ID="{E9A75E50-9370-4ECD-BB00-BEE0E813A27A}" WorkUnitID="{230B35AC-5938-4941-95BF-1CE6F4C18109}" Origin="Manual" Filter="7"/>
