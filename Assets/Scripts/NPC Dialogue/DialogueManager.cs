@@ -149,8 +149,22 @@ public class DialogueManager : MonoBehaviour
             }
             else
             {
-                AudioManager.Instance.CharacterSpeak(AudioManager.Characters.Player);
-
+                if (nameText.text == "Roommate")
+                {
+                    AudioManager.Instance.CharacterSpeak(AudioManager.Characters.Roommate);
+                }
+                else if (nameText.text == "Receptionist")
+                {
+                    AudioManager.Instance.CharacterSpeak(AudioManager.Characters.Receptionist);
+                }
+                else if (nameText.text == "Neighbour")
+                {
+                    AudioManager.Instance.CharacterSpeak(AudioManager.Characters.Neighbour);
+                }
+                else
+                {
+                    AudioManager.Instance.CharacterSpeak(AudioManager.Characters.Player);
+                }
                 dialogueText.text += letter;
                 yield return new WaitForSeconds(textSpeed);
             }
@@ -163,6 +177,8 @@ public class DialogueManager : MonoBehaviour
         animator.SetBool("isOpen", false);
         NPCInteract passScript = (NPCInteract) currentNPC.GetComponent(typeof(NPCInteract));
         passScript.EndTalking();
+        names.Clear();
+        sentences.Clear();
         if(logicScript.passedRec == false)
         {
             roomSwap.DialogueEnd();
