@@ -23,6 +23,15 @@ public class RoomSwap : MonoBehaviour
     //8- lobby
     //9- basehall
     //10-staff room
+    //11-bedroom real - good
+    //12-bathroom real - good
+    //13-apartment real - good
+    //14-kitchen real - good
+    //15-talk kitchen real - good
+    //16-bedroom real - bad
+    //17-bathroom real - bad
+    //18-apartment real - bad
+
 
     public void SwapNextRoom(int destinationRoom)
     {

@@ -15,6 +15,7 @@ public class DialogueManager : MonoBehaviour
     public GameObject dialogueUI;
     public GameObject nextSentenceButton;
     public GameObject resetButton;
+    public GameObject endButton;
     public Animator animator;
     public float textSpeed;
     private GameObject currentNPC;
@@ -32,6 +33,7 @@ public class DialogueManager : MonoBehaviour
     public GameObject receptionist2option2;
     public GameObject neighbouroption1;
     public GameObject neighbouroption2;
+    public GameObject goodEndingOption;
     private bool IsPaused;
 
     public Queue<string> sentences;
@@ -142,29 +144,44 @@ public class DialogueManager : MonoBehaviour
                 yield return new WaitForSeconds(textSpeed);
 
             }
+            else if (letter == ('0'))
+            {
+                goodEndingOption.SetActive(true);
+                yield return new WaitForSeconds(textSpeed);
+
+            }
             else if (letter == ('~'))
             {
                 resetButton.SetActive(true);
                 nextSentenceButton.SetActive(false);
             }
+            else if (letter == ('^'))
+            {
+                endButton.SetActive(true);
+                nextSentenceButton.SetActive(false);
+            }
             else
             {
-                if (nameText.text == "Roommate")
+                if (letter != '.')
                 {
-                    AudioManager.Instance.CharacterSpeak(AudioManager.Characters.Roommate);
+                    if (nameText.text == "Roommate")
+                    {
+                        AudioManager.Instance.CharacterSpeak(AudioManager.Characters.Roommate);
+                    }
+                    else if (nameText.text == "Receptionist")
+                    {
+                        AudioManager.Instance.CharacterSpeak(AudioManager.Characters.Receptionist);
+                    }
+                    else if (nameText.text == "Neighbour")
+                    {
+                        AudioManager.Instance.CharacterSpeak(AudioManager.Characters.Neighbour);
+                    }
+                    else
+                    {
+                        AudioManager.Instance.CharacterSpeak(AudioManager.Characters.Player);
+                    }
                 }
-                else if (nameText.text == "Receptionist")
-                {
-                    AudioManager.Instance.CharacterSpeak(AudioManager.Characters.Receptionist);
-                }
-                else if (nameText.text == "Neighbour")
-                {
-                    AudioManager.Instance.CharacterSpeak(AudioManager.Characters.Neighbour);
-                }
-                else
-                {
-                    AudioManager.Instance.CharacterSpeak(AudioManager.Characters.Player);
-                }
+
                 dialogueText.text += letter;
                 yield return new WaitForSeconds(textSpeed);
             }

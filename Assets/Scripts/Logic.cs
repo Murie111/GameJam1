@@ -1,4 +1,5 @@
 using Unity.Mathematics;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class Logic : MonoBehaviour
@@ -47,6 +48,10 @@ public class Logic : MonoBehaviour
     public float animTimeFull;
     public float animTimeClose;
 
+    public GameObject goodEnd;
+    public GameObject badEnd;
+
+    public GameObject endScreen;
 
     public void Start()
     {
@@ -121,6 +126,22 @@ public class Logic : MonoBehaviour
         Invoke("pixelChanger", animTimeClose);
     }
 
+    public void changeToReal()
+    {
+        Invoke("realPixelChange", animTimeClose);
+    }
+
+    public void end()
+    {
+        Invoke("enableEnd",animTimeClose);
+        DialogueManager.DisplayNextSentence();
+    }
+
+    void enableEnd()
+    {
+        endScreen.SetActive(true);
+       }
+
     public void pixelChanger()
     {
         if (spiral == 1)
@@ -163,6 +184,16 @@ public class Logic : MonoBehaviour
             mat.SetFloat("_NoiseScale", 1000f);
             mat.SetFloat("_NoiseTime", 300f);
         }
+        else if (spiral == 10)
+        {
+            mat.SetFloat("_PixelRatio", 50f);
+
+            mat.SetColor("_NoiseColour", Color.red);
+
+            mat.SetFloat("_NoiseFactor", 0.15f);
+            mat.SetFloat("_NoiseScale", 1000f);
+            mat.SetFloat("_NoiseTime", 10f);
+        }
         else
         {
             mat.SetFloat("_PixelRatio", 80f);
@@ -173,6 +204,17 @@ public class Logic : MonoBehaviour
             mat.SetFloat("_NoiseScale", 1000f);
             mat.SetFloat("_NoiseTime", 50f);
         }
+    }
+
+    public void realPixelChange()
+    {
+        mat.SetFloat("_PixelRatio", 2000f);
+
+        mat.SetColor("_NoiseColour", Color.clear);
+
+        mat.SetFloat("_NoiseFactor", 0f);
+        mat.SetFloat("_NoiseScale", 0f);
+        mat.SetFloat("_NoiseTime", 0f);
     }
 
 
@@ -228,6 +270,18 @@ public class Logic : MonoBehaviour
     public void setRec()
     {
         passedRec = true;
+    }
+
+    public void endingLogic()
+    {
+        if (spiral >= 5)
+        {
+            badEnd.SetActive(true);
+        }
+        else if (spiral < 5)
+        {
+            goodEnd.SetActive(true);
+        }
     }
 
 }
