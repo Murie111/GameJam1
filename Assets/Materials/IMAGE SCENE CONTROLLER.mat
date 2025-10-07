@@ -119,14 +119,14 @@ Material:
     - _Glossiness: 0
     - _GlossyReflections: 0
     - _Metallic: 0
-    - _NoiseFactor: 0
-    - _NoiseScale: 0
-    - _NoiseTime: 0
+    - _NoiseFactor: 0.1
+    - _NoiseScale: 1000
+    - _NoiseTime: 1000
     - _Noise_Factor: 0.72
     - _Noise_Scale: 1000
     - _OcclusionStrength: 1
     - _Parallax: 0.005
-    - _PixelRatio: 2000
+    - _PixelRatio: 500
     - _Pixel_Factor: 1000
     - _Pixel_Ratio: 256
     - _QueueOffset: 0
@@ -153,7 +153,7 @@ Material:
     - _ClipRect: {r: 0, g: 0, b: 0, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _NoiseColour: {r: 0, g: 0, b: 0, a: 0}
+    - _NoiseColour: {r: 0.5450981, g: 0, b: 0, a: 1}
     - _Noise_Colour: {r: 0.854902, g: 0.4392157, b: 0.8392158, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []

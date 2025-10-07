@@ -14,8 +14,6 @@ public class Logic : MonoBehaviour
     public bool doneBins;
     public bool talkedToNeighbour;//letterDelivered
 
-    public Material mat;
-
     public bool passedRec;
 
     public int checkpoint; //1-kitchen 2-basementhall 3-lobby 4-hallneighbour
@@ -53,15 +51,11 @@ public class Logic : MonoBehaviour
 
     public GameObject endScreen;
 
+    public Material[] roomMaterials;
+
     public void Start()
     {
-        mat.SetFloat("_PixelRatio", 500f);
-
-        mat.SetColor("_NoiseColour", Color.darkRed);
-
-        mat.SetFloat("_NoiseFactor", 0.1f);
-        mat.SetFloat("_NoiseScale", 1000f);
-        mat.SetFloat("_NoiseTime", 1000f);
+        ChangeMaterials(500f, Color.darkRed, 0.1f, 1000f, 1000f);
     }
 
     public void roommateConversation1()
@@ -144,77 +138,51 @@ public class Logic : MonoBehaviour
 
     public void pixelChanger()
     {
+
+
         if (spiral == 1)
         {
-            mat.SetFloat("_PixelRatio", 450f);
-
-            mat.SetColor("_NoiseColour", Color.darkRed);
-
-            mat.SetFloat("_NoiseFactor", 0.1f);
-            mat.SetFloat("_NoiseScale", 1000f);
-            mat.SetFloat("_NoiseTime", 800f);
+            ChangeMaterials(450f, Color.darkRed, 0.1f, 1000f, 800f);
         }
         else if (spiral == 2)
         {
-            mat.SetFloat("_PixelRatio", 375f);
-
-            mat.SetColor("_NoiseColour", Color.darkRed);
-
-            mat.SetFloat("_NoiseFactor", 0.1f);
-            mat.SetFloat("_NoiseScale", 1000f);
-            mat.SetFloat("_NoiseTime", 600f);
+            ChangeMaterials(375f, Color.darkRed, 0.1f, 1000f, 600f);
         }
         else if (spiral == 3)
         {
-            mat.SetFloat("_PixelRatio", 300f);
-
-            mat.SetColor("_NoiseColour", Color.indianRed);
-
-            mat.SetFloat("_NoiseFactor", 0.11f);
-            mat.SetFloat("_NoiseScale", 1000f);
-            mat.SetFloat("_NoiseTime", 500f);
+            ChangeMaterials(300f, Color.indianRed, 0.12f, 1000f, 500f);
         }
         else if (spiral == 4)
         {
-            mat.SetFloat("_PixelRatio", 200f);
-
-            mat.SetColor("_NoiseColour", Color.red);
-
-            mat.SetFloat("_NoiseFactor", 0.12f);
-            mat.SetFloat("_NoiseScale", 1000f);
-            mat.SetFloat("_NoiseTime", 300f);
+            ChangeMaterials(200f, Color.red, 0.12f, 1000f, 300f);
         }
         else if (spiral == 10)
         {
-            mat.SetFloat("_PixelRatio", 50f);
-
-            mat.SetColor("_NoiseColour", Color.red);
-
-            mat.SetFloat("_NoiseFactor", 0.15f);
-            mat.SetFloat("_NoiseScale", 1000f);
-            mat.SetFloat("_NoiseTime", 10f);
+            ChangeMaterials(50f, Color.red, 0.15f, 1000f, 10f);
         }
         else
         {
-            mat.SetFloat("_PixelRatio", 80f);
-
-            mat.SetColor("_NoiseColour", Color.red);
-
-            mat.SetFloat("_NoiseFactor", 0.15f);
-            mat.SetFloat("_NoiseScale", 1000f);
-            mat.SetFloat("_NoiseTime", 50f);
+            ChangeMaterials(80f, Color.red, 0.15f, 1000f, 50f);
         }
     }
 
     public void realPixelChange()
     {
-        mat.SetFloat("_PixelRatio", 2000f);
+        ChangeMaterials(2000f, Color.clear, 0f, 0f, 0f);
+    }
 
-        mat.SetColor("_NoiseColour", Color.clear);
+    private void ChangeMaterials(float pixels, Color color, float nFactor, float nScale, float nTime)
+    {
+        foreach (Material mat in roomMaterials)
+        {
+            mat.SetFloat("_PixelRatio", pixels);
 
-        mat.SetFloat("_NoiseFactor", 0f);
-        mat.SetFloat("_NoiseScale", 0f);
-        mat.SetFloat("_NoiseTime", 0f);
+            mat.SetColor("_NoiseColour", color);
+
+            mat.SetFloat("_NoiseFactor", nFactor);
+            mat.SetFloat("_NoiseScale", nScale);
+            mat.SetFloat("_NoiseTime", nTime);
+        }
     }
 
 

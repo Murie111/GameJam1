@@ -12992,7 +12992,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 2100000, guid: a80a7fe13f9c1804ca483cca1fb5a31a, type: 2}
+  m_Material: {fileID: 2100000, guid: cd3941389277aa840add574d9414fe4b, type: 2}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
@@ -15136,7 +15136,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 2100000, guid: df80d2618833a174ebeb8c33f662235b, type: 2}
+  m_Material: {fileID: 2100000, guid: 9048569fa45e4a84a9a4c0d7cf649b70, type: 2}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
@@ -18563,7 +18563,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 2100000, guid: a80a7fe13f9c1804ca483cca1fb5a31a, type: 2}
+  m_Material: {fileID: 2100000, guid: cd3941389277aa840add574d9414fe4b, type: 2}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
@@ -19317,7 +19317,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 2100000, guid: 27079440409b5cd4385c4dfee4481f80, type: 2}
+  m_Material: {fileID: 2100000, guid: a80a7fe13f9c1804ca483cca1fb5a31a, type: 2}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
@@ -20071,7 +20071,6 @@ MonoBehaviour:
   talkedToReceptionistLobby: 0
   doneBins: 0
   talkedToNeighbour: 0
-  mat: {fileID: 2100000, guid: 6512ac29115128f41a6c527061862dba, type: 2}
   passedRec: 0
   checkpoint: 0
   talktoReceptionistBasement: {fileID: 0}
@@ -20096,6 +20095,26 @@ MonoBehaviour:
   goodEnd: {fileID: 2036136151}
   badEnd: {fileID: 1412753701}
   endScreen: {fileID: 173201700}
+  roomMaterials:
+  - {fileID: 2100000, guid: cd3941389277aa840add574d9414fe4b, type: 2}
+  - {fileID: 2100000, guid: 7de3a380d2c4c8e499f46710fa066afc, type: 2}
+  - {fileID: 2100000, guid: c6df9f1b5acce9a42aab846b57694099, type: 2}
+  - {fileID: 2100000, guid: 8ccae140053d4a740af7d8dfbc0fbc10, type: 2}
+  - {fileID: 2100000, guid: 3f4df2eb3536d1e4187627f22ec84fec, type: 2}
+  - {fileID: 2100000, guid: cb09d64c012846c49986b47698c7342d, type: 2}
+  - {fileID: 2100000, guid: 5e0542fd43591ac4b83f72a28180b978, type: 2}
+  - {fileID: 2100000, guid: eb7f345fd7e4a2b489fa116a54fc8e39, type: 2}
+  - {fileID: 2100000, guid: df80d2618833a174ebeb8c33f662235b, type: 2}
+  - {fileID: 2100000, guid: 9048569fa45e4a84a9a4c0d7cf649b70, type: 2}
+  - {fileID: 2100000, guid: a80a7fe13f9c1804ca483cca1fb5a31a, type: 2}
+  - {fileID: 2100000, guid: 1a23e85e02182b04c85820534a3c0374, type: 2}
+  - {fileID: 2100000, guid: 820532aff5c85d84a91dc612161629d2, type: 2}
+  - {fileID: 2100000, guid: 6127c1b42aff3db41a05e85f42c094a5, type: 2}
+  - {fileID: 2100000, guid: e68b6c6b962fd7f49a8e717e747516de, type: 2}
+  - {fileID: 2100000, guid: eadfe3639d6708543860913e4d6411ee, type: 2}
+  - {fileID: 2100000, guid: f77277ee95e07b947a3f8ca560071daf, type: 2}
+  - {fileID: 2100000, guid: f064f9a1cede871448abaf0fd7f51904, type: 2}
+  - {fileID: 2100000, guid: fa0ad93f862815d479488e639626fb68, type: 2}
 --- !u!114 &1935685163
 MonoBehaviour:
   m_ObjectHideFlags: 0
