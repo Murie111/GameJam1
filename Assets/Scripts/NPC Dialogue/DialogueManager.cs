@@ -39,6 +39,7 @@ public class DialogueManager : MonoBehaviour
     public Queue<string> sentences;
     public Queue<string> names;
 
+
     void Start()
     {
         sentences = new Queue<string>();
@@ -67,6 +68,7 @@ public class DialogueManager : MonoBehaviour
 
     }
     public void DisplayNextSentence(){
+
         nextSentenceButton.SetActive(true);
         isChoice = false;
         if ((sentences.Count == 0 && names.Count == 0))
@@ -188,6 +190,7 @@ public class DialogueManager : MonoBehaviour
         }    
     }
     public void EndDialogue(){
+
         resetButton.SetActive(false);
         nextSentenceButton.SetActive(false);
         logicScript.passBlink();

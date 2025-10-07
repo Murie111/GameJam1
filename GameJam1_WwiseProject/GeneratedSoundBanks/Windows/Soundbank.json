@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{7C9C12AF-D103-4D92-8431-0C9D336C8721}",
     "Language": "SFX",
-    "Hash": "{CA4F9681-B7A1-DDFE-2A07-B1246441AA43}",
+    "Hash": "{7FC184A6-5800-A2C0-3EAB-934E34579E2B}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Soundbank",
     "ShortName": "Soundbank",
     "Path": "Soundbank.bnk",
@@ -53,7 +53,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "washing machiene .wav",
-      "CachePath": "93/{9324200E-E7E6-9284-DDB9-9C910EC06C9F}.wem"
+      "CachePath": "B4/{B4FB9CA3-DCB1-EEE5-B370-6896FB3D4ACC}.wem"
      },
      {
       "Id": "175016844",
@@ -513,6 +513,6 @@
     ]
    }
   ],
-  "FileHash": "{FB65F882-1A3A-9288-22DD-78D001C43A14}"
+  "FileHash": "{13559C2D-F784-CF7D-1C60-F04F0668838E}"
  }
 }

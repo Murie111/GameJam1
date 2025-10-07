@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: a5baa8d7997bc14698bded0f93ec27e4
     GuidInternal: 
-    m_lastTime: -8584417635332337677
+    m_lastTime: -8584417389093041427
     List:
     - name: Soundbank
       guid: af129c7c03d1924d84310c9d336c8721
@@ -94,7 +94,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: ac350b233859414995bf1ce6f4c18109
     GuidInternal: 
-    m_lastTime: -8584417635333671889
+    m_lastTime: -8584417392815637051
     List:
     - name: Ambience
       guid: 3f320bc095cfe24bb774e39e6d097612
@@ -315,8 +315,8 @@ MonoBehaviour:
         guid: f4247137570c964eb48cd21dc13db9b6
       Path: Events\Default Work Unit\Washing_machine
       maxAttenuation: 0
-      maxDuration: 5.2602496
-      minDuration: 5.2602496
+      maxDuration: 4.004011
+      minDuration: 4.004011
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
