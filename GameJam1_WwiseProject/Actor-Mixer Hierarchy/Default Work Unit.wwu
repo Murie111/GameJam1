@@ -12,6 +12,11 @@
 								</ModifierInfo>
 							</ModifierList>
 						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>10</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
@@ -182,6 +187,11 @@
 									<Modifier Name="" ID="{E5C8321B-675E-4C0D-8047-7E51E8D9A031}"/>
 								</ModifierInfo>
 							</ModifierList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-7</Value>
+							</ValueList>
 						</Property>
 					</PropertyList>
 					<ReferenceList>
@@ -376,6 +386,11 @@
 									<Modifier Name="" ID="{FB9C51A2-ED9F-4DB1-BA46-9503E027FD0D}"/>
 								</ModifierInfo>
 							</ModifierList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>10</Value>
+							</ValueList>
 						</Property>
 					</PropertyList>
 					<ReferenceList>
@@ -1034,6 +1049,13 @@
 					</ActiveSourceList>
 				</Sound>
 				<Sound Name="washing machiene" ID="{7721EB81-617B-4007-8420-023D5BE9389F}" ShortID="708229890">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-13</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C806748E-9264-49DF-A61D-13BEC75CDB7D}"/>
@@ -1044,6 +1066,11 @@
 					</ReferenceList>
 					<ChildrenList>
 						<AudioFileSource Name="washing machiene" ID="{CC65C047-6315-45F8-A338-5069506E87D3}">
+							<PropertyList>
+								<Property Name="FadeOutDuration" Type="Real64" Value="1.2362981294483"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimEnd" Type="Real64" Value="4.00401101124781"/>
+							</PropertyList>
 							<Language>SFX</Language>
 							<AudioFile>washing machiene .wav</AudioFile>
 							<MediaIDList>

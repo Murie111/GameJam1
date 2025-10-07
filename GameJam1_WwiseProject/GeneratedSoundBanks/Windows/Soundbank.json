@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{7C9C12AF-D103-4D92-8431-0C9D336C8721}",
     "Language": "SFX",
-    "Hash": "{FECCA8D3-2243-C364-DAEE-E3D151A59565}",
+    "Hash": "{CA4F9681-B7A1-DDFE-2A07-B1246441AA43}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Soundbank",
     "ShortName": "Soundbank",
     "Path": "Soundbank.bnk",
@@ -53,7 +53,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "washing machiene .wav",
-      "CachePath": "3C/{3C58F213-255F-5C63-177B-9FCF9DA12D09}.wem"
+      "CachePath": "93/{9324200E-E7E6-9284-DDB9-9C910EC06C9F}.wem"
      },
      {
       "Id": "175016844",
@@ -502,8 +502,8 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Washing_machine",
       "GUID": "{377124F4-0C57-4E96-B48C-D21DC13DB9B6}",
       "DurationType": "OneShot",
-      "DurationMin": "5.2602496",
-      "DurationMax": "5.2602496",
+      "DurationMin": "4.004011",
+      "DurationMax": "4.004011",
       "MediaRefs": [
        {
         "Id": "155366820"
@@ -513,6 +513,6 @@
     ]
    }
   ],
-  "FileHash": "{61586358-1A6C-D3D7-7CB8-136B8E03E8A4}"
+  "FileHash": "{FB65F882-1A3A-9288-22DD-78D001C43A14}"
  }
 }

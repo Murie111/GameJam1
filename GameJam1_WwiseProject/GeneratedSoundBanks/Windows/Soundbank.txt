@@ -25,36 +25,36 @@ State	ID	Name	State Group			Notes
 	4154495109	Apartment	RoomAmbience			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	435409	Main character (4)	D:\_Uni\2025.2\DES402\GameJam1\GameJam1_WwiseProject\.cache\0A\{0AB1D5EA-E968-320F-8FDE-DA9CF05B6406}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Maincharacter\Main character (4)		24940
-	8757991	Neighbore (4)	D:\_Uni\2025.2\DES402\GameJam1\GameJam1_WwiseProject\.cache\A8\{A81CFC13-FB46-91BD-FA53-D3D63CDF125A}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Neighbour\Neighbore (4)		29212
-	30601288	Main character (2)	D:\_Uni\2025.2\DES402\GameJam1\GameJam1_WwiseProject\.cache\9A\{9ABE534E-6A54-B0F1-4B34-FCB558272903}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Maincharacter\Main character (2)		24940
-	119563857	Roomate voice (3)	D:\_Uni\2025.2\DES402\GameJam1\GameJam1_WwiseProject\.cache\C8\{C8C7E24C-C3F0-37DE-4919-CB6EB30D66C1}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Roommate\Roomate voice (3)		17708
-	155366820	washing machiene	D:\_Uni\2025.2\DES402\GameJam1\GameJam1_WwiseProject\.cache\3C\{3C58F213-255F-5C63-177B-9FCF9DA12D09}.wem		\Actor-Mixer Hierarchy\Default Work Unit\washing machiene		928004
-	175016844	Floorboard	D:\_Uni\2025.2\DES402\GameJam1\GameJam1_WwiseProject\.cache\71\{717A86BD-13BA-3EB9-044F-D389F86B1B32}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Floorboard		214004
-	215928113	Roomate voice (4)	D:\_Uni\2025.2\DES402\GameJam1\GameJam1_WwiseProject\.cache\17\{179C5E0B-A4F3-97A1-308D-4E36524E5E8E}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Roommate\Roomate voice (4)		17708
-	232246780	Neighbore (1)	D:\_Uni\2025.2\DES402\GameJam1\GameJam1_WwiseProject\.cache\EF\{EF456850-A399-6765-79DA-A5A76655B2EA}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Neighbour\Neighbore (1)		29212
-	235901378	Man cough 2	D:\_Uni\2025.2\DES402\GameJam1\GameJam1_WwiseProject\.cache\52\{521C78F4-E043-19EE-AF16-349B66966749}.wem		\Actor-Mixer Hierarchy\Default Work Unit\CoughingMan\Man cough 2		383688
-	282509617	Pencil (2)	D:\_Uni\2025.2\DES402\GameJam1\GameJam1_WwiseProject\.cache\46\{46DA82B8-23E4-3A28-36F4-C355591B3F7B}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pencil\Pencil (2)		119952
-	292350798	Pencil (3)	D:\_Uni\2025.2\DES402\GameJam1\GameJam1_WwiseProject\.cache\45\{4500AB76-9A92-12B1-1CC5-146A378555F1}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pencil\Pencil (3)		119952
-	319040950	Roomate voice (2)	D:\_Uni\2025.2\DES402\GameJam1\GameJam1_WwiseProject\.cache\5C\{5CDCBB1E-8ED1-C357-CF7B-5C18372D0A40}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Roommate\Roomate voice (2)		17708
-	367569696	Walking (Wood 1)	D:\_Uni\2025.2\DES402\GameJam1\GameJam1_WwiseProject\.cache\F0\{F0337C54-BD4E-2D2B-4C1E-C95D4A132681}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Walking (Wood 1)		114152
-	377948262	Walking (slabs 1)	D:\_Uni\2025.2\DES402\GameJam1\GameJam1_WwiseProject\.cache\89\{89B8F12D-9BD6-AB41-4124-FB5C0ECFC24D}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Walking (slabs 1)		179236
-	393599275	Receptionist (3)	D:\_Uni\2025.2\DES402\GameJam1\GameJam1_WwiseProject\.cache\05\{058318D4-7978-143F-2D70-315017BD9647}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Receptionist\Receptionist (3)		25708
-	470386043	Walking (carpet 3)	D:\_Uni\2025.2\DES402\GameJam1\GameJam1_WwiseProject\.cache\16\{16BD8781-DFC7-F01A-7751-FFEA3402261E}.wem		\Actor-Mixer Hierarchy\Default Work Unit\CarpetWalk\Walking (carpet 3)		107352
-	485441434	Main character (1)	D:\_Uni\2025.2\DES402\GameJam1\GameJam1_WwiseProject\.cache\22\{2297909B-8125-B5E1-C970-360BB3FE4B50}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Maincharacter\Main character (1)		24940
-	563101861	Main character (3)	D:\_Uni\2025.2\DES402\GameJam1\GameJam1_WwiseProject\.cache\D9\{D9B3E162-C916-8F46-BDA0-AC9E7756687C}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Maincharacter\Main character (3)		24940
-	641809866	Walking (carpet 2)	D:\_Uni\2025.2\DES402\GameJam1\GameJam1_WwiseProject\.cache\DC\{DC572E25-9F7D-B3FA-719C-4375FB1B7AB9}.wem		\Actor-Mixer Hierarchy\Default Work Unit\CarpetWalk\Walking (carpet 2)		179684
-	646609325	wind_actual	D:\_Uni\2025.2\DES402\GameJam1\GameJam1_WwiseProject\.cache\2F\{2F73D708-A354-2661-27DB-83561F892D8E}.wem		\Actor-Mixer Hierarchy\Default Work Unit\wind_actual		1852296
-	671376253	Neighbore (2)	D:\_Uni\2025.2\DES402\GameJam1\GameJam1_WwiseProject\.cache\39\{39DCFBA0-7A0F-A372-D346-B74238B6FE55}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Neighbour\Neighbore (2)		29212
-	681407878	Roomate voice (1)	D:\_Uni\2025.2\DES402\GameJam1\GameJam1_WwiseProject\.cache\C6\{C66777A3-8E1B-51E0-7139-65F7E88C7A3A}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Roommate\Roomate voice (1)		17708
-	772332903	Walking (carpet 1)	D:\_Uni\2025.2\DES402\GameJam1\GameJam1_WwiseProject\.cache\2E\{2E08C27D-B4AD-B833-D223-216E2F028C60}.wem		\Actor-Mixer Hierarchy\Default Work Unit\CarpetWalk\Walking (carpet 1)		110932
-	823248924	Receptionist (2)	D:\_Uni\2025.2\DES402\GameJam1\GameJam1_WwiseProject\.cache\ED\{EDD6554E-50B8-1692-7C3F-CFBBE0826F08}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Receptionist\Receptionist (2)		25708
-	833299954	Receptionist (4)	D:\_Uni\2025.2\DES402\GameJam1\GameJam1_WwiseProject\.cache\73\{73217653-AFE7-714D-CC54-1438248ECE71}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Receptionist\Receptionist (4)		25708
-	869775863	Neighbore (3)	D:\_Uni\2025.2\DES402\GameJam1\GameJam1_WwiseProject\.cache\02\{02C848EE-C457-5302-B0B0-38CD7C1B5716}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Neighbour\Neighbore (3)		29212
-	883642861	Pencil (1)	D:\_Uni\2025.2\DES402\GameJam1\GameJam1_WwiseProject\.cache\F9\{F96E13C2-A1E6-D1CB-2876-041271E6D025}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pencil\Pencil (1)		119952
-	978832667	Receptionist (1)	D:\_Uni\2025.2\DES402\GameJam1\GameJam1_WwiseProject\.cache\87\{872692A9-A2E9-E959-BE40-48DF98F19913}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Receptionist\Receptionist (1)		25708
-	1007741079	Bin	D:\_Uni\2025.2\DES402\GameJam1\GameJam1_WwiseProject\.cache\98\{982D0EC0-8E1A-69DD-346F-9DB22C779F4F}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Bin		529296
-	1033729391	Tvstatic	D:\_Uni\2025.2\DES402\GameJam1\GameJam1_WwiseProject\.cache\64\{640A7383-5D65-B8DA-E3DD-B29D658E32F1}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Tvstatic		1852296
-	1058881086	Man cough 1	D:\_Uni\2025.2\DES402\GameJam1\GameJam1_WwiseProject\.cache\03\{03910719-D900-46BA-8619-FE3E4CA282A2}.wem		\Actor-Mixer Hierarchy\Default Work Unit\CoughingMan\Man cough 1		301740
-	1069221534	Key pick up	D:\_Uni\2025.2\DES402\GameJam1\GameJam1_WwiseProject\.cache\6E\{6E3645BD-D56E-83E7-F0F5-83250B887BD2}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Key pick up		192472
+	435409	Main character (4)	C:\Users\rober\Documents\GitHub\GameJam1\GameJam1_WwiseProject\.cache\0A\{0AB1D5EA-E968-320F-8FDE-DA9CF05B6406}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Maincharacter\Main character (4)		24940
+	8757991	Neighbore (4)	C:\Users\rober\Documents\GitHub\GameJam1\GameJam1_WwiseProject\.cache\A8\{A81CFC13-FB46-91BD-FA53-D3D63CDF125A}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Neighbour\Neighbore (4)		29212
+	30601288	Main character (2)	C:\Users\rober\Documents\GitHub\GameJam1\GameJam1_WwiseProject\.cache\9A\{9ABE534E-6A54-B0F1-4B34-FCB558272903}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Maincharacter\Main character (2)		24940
+	119563857	Roomate voice (3)	C:\Users\rober\Documents\GitHub\GameJam1\GameJam1_WwiseProject\.cache\C8\{C8C7E24C-C3F0-37DE-4919-CB6EB30D66C1}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Roommate\Roomate voice (3)		17708
+	155366820	washing machiene	C:\Users\rober\Documents\GitHub\GameJam1\GameJam1_WwiseProject\.cache\93\{9324200E-E7E6-9284-DDB9-9C910EC06C9F}.wem		\Actor-Mixer Hierarchy\Default Work Unit\washing machiene		706404
+	175016844	Floorboard	C:\Users\rober\Documents\GitHub\GameJam1\GameJam1_WwiseProject\.cache\71\{717A86BD-13BA-3EB9-044F-D389F86B1B32}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Floorboard		214004
+	215928113	Roomate voice (4)	C:\Users\rober\Documents\GitHub\GameJam1\GameJam1_WwiseProject\.cache\17\{179C5E0B-A4F3-97A1-308D-4E36524E5E8E}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Roommate\Roomate voice (4)		17708
+	232246780	Neighbore (1)	C:\Users\rober\Documents\GitHub\GameJam1\GameJam1_WwiseProject\.cache\EF\{EF456850-A399-6765-79DA-A5A76655B2EA}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Neighbour\Neighbore (1)		29212
+	235901378	Man cough 2	C:\Users\rober\Documents\GitHub\GameJam1\GameJam1_WwiseProject\.cache\52\{521C78F4-E043-19EE-AF16-349B66966749}.wem		\Actor-Mixer Hierarchy\Default Work Unit\CoughingMan\Man cough 2		383688
+	282509617	Pencil (2)	C:\Users\rober\Documents\GitHub\GameJam1\GameJam1_WwiseProject\.cache\46\{46DA82B8-23E4-3A28-36F4-C355591B3F7B}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pencil\Pencil (2)		119952
+	292350798	Pencil (3)	C:\Users\rober\Documents\GitHub\GameJam1\GameJam1_WwiseProject\.cache\45\{4500AB76-9A92-12B1-1CC5-146A378555F1}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pencil\Pencil (3)		119952
+	319040950	Roomate voice (2)	C:\Users\rober\Documents\GitHub\GameJam1\GameJam1_WwiseProject\.cache\5C\{5CDCBB1E-8ED1-C357-CF7B-5C18372D0A40}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Roommate\Roomate voice (2)		17708
+	367569696	Walking (Wood 1)	C:\Users\rober\Documents\GitHub\GameJam1\GameJam1_WwiseProject\.cache\F0\{F0337C54-BD4E-2D2B-4C1E-C95D4A132681}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Walking (Wood 1)		114152
+	377948262	Walking (slabs 1)	C:\Users\rober\Documents\GitHub\GameJam1\GameJam1_WwiseProject\.cache\89\{89B8F12D-9BD6-AB41-4124-FB5C0ECFC24D}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Walking (slabs 1)		179236
+	393599275	Receptionist (3)	C:\Users\rober\Documents\GitHub\GameJam1\GameJam1_WwiseProject\.cache\05\{058318D4-7978-143F-2D70-315017BD9647}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Receptionist\Receptionist (3)		25708
+	470386043	Walking (carpet 3)	C:\Users\rober\Documents\GitHub\GameJam1\GameJam1_WwiseProject\.cache\16\{16BD8781-DFC7-F01A-7751-FFEA3402261E}.wem		\Actor-Mixer Hierarchy\Default Work Unit\CarpetWalk\Walking (carpet 3)		107352
+	485441434	Main character (1)	C:\Users\rober\Documents\GitHub\GameJam1\GameJam1_WwiseProject\.cache\22\{2297909B-8125-B5E1-C970-360BB3FE4B50}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Maincharacter\Main character (1)		24940
+	563101861	Main character (3)	C:\Users\rober\Documents\GitHub\GameJam1\GameJam1_WwiseProject\.cache\D9\{D9B3E162-C916-8F46-BDA0-AC9E7756687C}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Maincharacter\Main character (3)		24940
+	641809866	Walking (carpet 2)	C:\Users\rober\Documents\GitHub\GameJam1\GameJam1_WwiseProject\.cache\DC\{DC572E25-9F7D-B3FA-719C-4375FB1B7AB9}.wem		\Actor-Mixer Hierarchy\Default Work Unit\CarpetWalk\Walking (carpet 2)		179684
+	646609325	wind_actual	C:\Users\rober\Documents\GitHub\GameJam1\GameJam1_WwiseProject\.cache\2F\{2F73D708-A354-2661-27DB-83561F892D8E}.wem		\Actor-Mixer Hierarchy\Default Work Unit\wind_actual		1852296
+	671376253	Neighbore (2)	C:\Users\rober\Documents\GitHub\GameJam1\GameJam1_WwiseProject\.cache\39\{39DCFBA0-7A0F-A372-D346-B74238B6FE55}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Neighbour\Neighbore (2)		29212
+	681407878	Roomate voice (1)	C:\Users\rober\Documents\GitHub\GameJam1\GameJam1_WwiseProject\.cache\C6\{C66777A3-8E1B-51E0-7139-65F7E88C7A3A}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Roommate\Roomate voice (1)		17708
+	772332903	Walking (carpet 1)	C:\Users\rober\Documents\GitHub\GameJam1\GameJam1_WwiseProject\.cache\2E\{2E08C27D-B4AD-B833-D223-216E2F028C60}.wem		\Actor-Mixer Hierarchy\Default Work Unit\CarpetWalk\Walking (carpet 1)		110932
+	823248924	Receptionist (2)	C:\Users\rober\Documents\GitHub\GameJam1\GameJam1_WwiseProject\.cache\ED\{EDD6554E-50B8-1692-7C3F-CFBBE0826F08}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Receptionist\Receptionist (2)		25708
+	833299954	Receptionist (4)	C:\Users\rober\Documents\GitHub\GameJam1\GameJam1_WwiseProject\.cache\73\{73217653-AFE7-714D-CC54-1438248ECE71}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Receptionist\Receptionist (4)		25708
+	869775863	Neighbore (3)	C:\Users\rober\Documents\GitHub\GameJam1\GameJam1_WwiseProject\.cache\02\{02C848EE-C457-5302-B0B0-38CD7C1B5716}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Neighbour\Neighbore (3)		29212
+	883642861	Pencil (1)	C:\Users\rober\Documents\GitHub\GameJam1\GameJam1_WwiseProject\.cache\F9\{F96E13C2-A1E6-D1CB-2876-041271E6D025}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pencil\Pencil (1)		119952
+	978832667	Receptionist (1)	C:\Users\rober\Documents\GitHub\GameJam1\GameJam1_WwiseProject\.cache\87\{872692A9-A2E9-E959-BE40-48DF98F19913}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Receptionist\Receptionist (1)		25708
+	1007741079	Bin	C:\Users\rober\Documents\GitHub\GameJam1\GameJam1_WwiseProject\.cache\98\{982D0EC0-8E1A-69DD-346F-9DB22C779F4F}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Bin		529296
+	1033729391	Tvstatic	C:\Users\rober\Documents\GitHub\GameJam1\GameJam1_WwiseProject\.cache\64\{640A7383-5D65-B8DA-E3DD-B29D658E32F1}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Tvstatic		1852296
+	1058881086	Man cough 1	C:\Users\rober\Documents\GitHub\GameJam1\GameJam1_WwiseProject\.cache\03\{03910719-D900-46BA-8619-FE3E4CA282A2}.wem		\Actor-Mixer Hierarchy\Default Work Unit\CoughingMan\Man cough 1		301740
+	1069221534	Key pick up	C:\Users\rober\Documents\GitHub\GameJam1\GameJam1_WwiseProject\.cache\6E\{6E3645BD-D56E-83E7-F0F5-83250B887BD2}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Key pick up		192472
 
