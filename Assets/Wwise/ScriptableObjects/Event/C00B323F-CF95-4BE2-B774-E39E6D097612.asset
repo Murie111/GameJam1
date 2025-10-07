@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 495c4e333cda30b47918947ba3366f39, type: 3}
-  m_Name: 37603E44-4D07-43B2-9152-D98FDF9F1F3E
+  m_Name: C00B323F-CF95-4BE2-B774-E39E6D097612
   m_EditorClassIdentifier: 
-  objectName: Coughing
-  id: 2427782015
-  guid: 37603E44-4D07-43B2-9152-D98FDF9F1F3E
+  objectName: Ambience
+  id: 85412153
+  guid: C00B323F-CF95-4BE2-B774-E39E6D097612
   IsInUserDefinedSoundBank: 1

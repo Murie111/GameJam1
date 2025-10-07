@@ -13,8 +13,8 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID AMBIENCE = 85412153U;
         static const AkUniqueID BIN = 647611012U;
-        static const AkUniqueID COUGHING = 2427782015U;
         static const AkUniqueID FLOORBOARD = 334178259U;
         static const AkUniqueID KEY_PICKUP = 761761105U;
         static const AkUniqueID MAINCHARACTER = 1518239843U;
@@ -22,13 +22,30 @@ namespace AK
         static const AkUniqueID PENCIL = 3809038802U;
         static const AkUniqueID RECEPTIONIST = 3487933672U;
         static const AkUniqueID ROOMMATE = 1409351263U;
-        static const AkUniqueID TV_STATIC = 1436086644U;
         static const AkUniqueID WALKING_CARPET = 1239048424U;
         static const AkUniqueID WALKING_SLAB = 593413861U;
         static const AkUniqueID WALKING_WOOD = 3451145406U;
         static const AkUniqueID WASHING_MACHINE = 768697242U;
-        static const AkUniqueID WIND = 1537061107U;
     } // namespace EVENTS
+
+    namespace STATES
+    {
+        namespace ROOMAMBIENCE
+        {
+            static const AkUniqueID GROUP = 539467320U;
+
+            namespace STATE
+            {
+                static const AkUniqueID APARTMENT = 4154495109U;
+                static const AkUniqueID BASEMENT = 1413413702U;
+                static const AkUniqueID BATHROOM = 1831461191U;
+                static const AkUniqueID HALLWAY = 2198133169U;
+                static const AkUniqueID LOBBY = 290285391U;
+                static const AkUniqueID NONE = 748895195U;
+            } // namespace STATE
+        } // namespace ROOMAMBIENCE
+
+    } // namespace STATES
 
     namespace BANKS
     {

@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{7C9C12AF-D103-4D92-8431-0C9D336C8721}",
     "Language": "SFX",
-    "Hash": "{B4D43621-41F1-1187-1DBD-4D3BB4C1E8C4}",
+    "Hash": "{FECCA8D3-2243-C364-DAEE-E3D151A59565}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Soundbank",
     "ShortName": "Soundbank",
     "Path": "Soundbank.bnk",
@@ -274,6 +274,27 @@
     ],
     "Events": [
      {
+      "Id": "85412153",
+      "Name": "Ambience",
+      "ObjectPath": "\\Events\\Default Work Unit\\Ambience",
+      "GUID": "{C00B323F-CF95-4BE2-B774-E39E6D097612}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "235901378"
+       },
+       {
+        "Id": "646609325"
+       },
+       {
+        "Id": "1033729391"
+       },
+       {
+        "Id": "1058881086"
+       }
+      ]
+     },
+     {
       "Id": "647611012",
       "Name": "Bin",
       "ObjectPath": "\\Events\\Default Work Unit\\Bin",
@@ -284,23 +305,6 @@
       "MediaRefs": [
        {
         "Id": "1007741079"
-       }
-      ]
-     },
-     {
-      "Id": "2427782015",
-      "Name": "Coughing",
-      "ObjectPath": "\\Events\\Default Work Unit\\Coughing",
-      "GUID": "{37603E44-4D07-43B2-9152-D98FDF9F1F3E}",
-      "DurationType": "OneShot",
-      "DurationMin": "1.71",
-      "DurationMax": "2.174558",
-      "MediaRefs": [
-       {
-        "Id": "235901378"
-       },
-       {
-        "Id": "1058881086"
        }
       ]
      },
@@ -445,18 +449,6 @@
       ]
      },
      {
-      "Id": "1436086644",
-      "Name": "Tv_static",
-      "ObjectPath": "\\Events\\Default Work Unit\\Tv_static",
-      "GUID": "{5997C1B1-E736-42AF-AAFC-67D8FD4DA447}",
-      "DurationType": "Infinite",
-      "MediaRefs": [
-       {
-        "Id": "1033729391"
-       }
-      ]
-     },
-     {
       "Id": "1239048424",
       "Name": "Walking_carpet",
       "ObjectPath": "\\Events\\Default Work Unit\\Walking_carpet",
@@ -517,22 +509,10 @@
         "Id": "155366820"
        }
       ]
-     },
-     {
-      "Id": "1537061107",
-      "Name": "Wind",
-      "ObjectPath": "\\Events\\Default Work Unit\\Wind",
-      "GUID": "{C00B323F-CF95-4BE2-B774-E39E6D097612}",
-      "DurationType": "Infinite",
-      "MediaRefs": [
-       {
-        "Id": "646609325"
-       }
-      ]
      }
     ]
    }
   ],
-  "FileHash": "{F994525D-FE27-9E97-5194-EF3BFEF49FCD}"
+  "FileHash": "{61586358-1A6C-D3D7-7CB8-136B8E03E8A4}"
  }
 }

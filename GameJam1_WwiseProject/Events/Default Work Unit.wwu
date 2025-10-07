@@ -102,28 +102,6 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Coughing" ID="{37603E44-4D07-43B2-9152-D98FDF9F1F3E}">
-					<ChildrenList>
-						<Action Name="" ID="{DB827CF7-3239-4CE6-81C0-8C978F8B49C1}" ShortID="323546517">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="CoughingMan" ID="{27769E59-EA22-40B1-B44F-F9EFF496F4F0}" WorkUnitID="{630F9E25-BA6C-4A4B-8F1C-D7D6E8514006}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Tv_static" ID="{5997C1B1-E736-42AF-AAFC-67D8FD4DA447}">
-					<ChildrenList>
-						<Action Name="" ID="{D4037B92-F148-4AFF-B720-FD3841A554EE}" ShortID="782349477">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Tvstatic" ID="{3381FD21-BAAC-4AC1-986D-A9FE48343A46}" WorkUnitID="{630F9E25-BA6C-4A4B-8F1C-D7D6E8514006}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Event Name="Walking_slab" ID="{60613DD4-7698-40C7-9F4D-093AE6FEBB92}">
 					<ChildrenList>
 						<Action Name="" ID="{A0C0E814-763E-4C5E-A7C5-4E3F36DE8D49}" ShortID="101764528">
@@ -146,12 +124,26 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Wind" ID="{C00B323F-CF95-4BE2-B774-E39E6D097612}">
+				<Event Name="Ambience" ID="{C00B323F-CF95-4BE2-B774-E39E6D097612}">
 					<ChildrenList>
 						<Action Name="" ID="{081EE2B2-9945-4878-8812-E35A232EBCBE}" ShortID="338355238">
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="wind_actual" ID="{5ADFFACD-4812-4228-B647-5569052D10AB}" WorkUnitID="{630F9E25-BA6C-4A4B-8F1C-D7D6E8514006}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{C0EA9F3A-081F-4A96-B89E-CDBBEB14FFD1}" ShortID="826914134">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Tvstatic" ID="{3381FD21-BAAC-4AC1-986D-A9FE48343A46}" WorkUnitID="{630F9E25-BA6C-4A4B-8F1C-D7D6E8514006}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{9C7BF705-C201-46AE-9773-3B72AC877787}" ShortID="766088835">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="CoughingMan" ID="{27769E59-EA22-40B1-B44F-F9EFF496F4F0}" WorkUnitID="{630F9E25-BA6C-4A4B-8F1C-D7D6E8514006}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

@@ -1,3 +1,14 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	539467320	RoomAmbience			\Default Work Unit\RoomAmbience	
+
+State	ID	Name	State Group			Notes
+	290285391	Lobby	RoomAmbience			
+	748895195	None	RoomAmbience			
+	1413413702	Basement	RoomAmbience			
+	1831461191	Bathroom	RoomAmbience			
+	2198133169	Hallway	RoomAmbience			
+	4154495109	Apartment	RoomAmbience			
+
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
 

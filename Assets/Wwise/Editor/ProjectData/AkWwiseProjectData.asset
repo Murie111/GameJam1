@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: a5baa8d7997bc14698bded0f93ec27e4
     GuidInternal: 
-    m_lastTime: -8584418381762315702
+    m_lastTime: -8584418128033406544
     List:
     - name: Soundbank
       guid: af129c7c03d1924d84310c9d336c8721
@@ -94,8 +94,25 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: ac350b233859414995bf1ce6f4c18109
     GuidInternal: 
-    m_lastTime: -8584418381764100626
+    m_lastTime: -8584418128033293861
     List:
+    - name: Ambience
+      guid: 3f320bc095cfe24bb774e39e6d097612
+      id: 85412153
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ac350b233859414995bf1ce6f4c18109
+      - ElementName: Ambience
+        ObjectType: 3
+        guid: 3f320bc095cfe24bb774e39e6d097612
+      Path: Events\Default Work Unit\Ambience
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
     - name: Bin
       guid: 505ea7e97093cd4ebb00bee0e813a27a
       id: 647611012
@@ -113,23 +130,6 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 3
       minDuration: 3
-    - name: Coughing
-      guid: 443e6037074db2439152d98fdf9f1f3e
-      id: 2427782015
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: ac350b233859414995bf1ce6f4c18109
-      - ElementName: Coughing
-        ObjectType: 3
-        guid: 443e6037074db2439152d98fdf9f1f3e
-      Path: Events\Default Work Unit\Coughing
-      maxAttenuation: 0
-      maxDuration: 2.174558
-      minDuration: 1.71
     - name: Floorboard
       guid: 6a0612f80b693240a06552cf33a58b09
       id: 334178259
@@ -300,9 +300,9 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0.646576
       minDuration: 0.646576
-    - name: Wind
-      guid: b1c1975936e7af42aafc67d8fd4da447
-      id: 1537061107
+    - name: Washing_machine
+      guid: f4247137570c964eb48cd21dc13db9b6
+      id: 768697242
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
@@ -310,13 +310,13 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: ac350b233859414995bf1ce6f4c18109
-      - ElementName: Wind
+      - ElementName: Washing_machine
         ObjectType: 3
-        guid: b1c1975936e7af42aafc67d8fd4da447
-      Path: Events\Default Work Unit\Wind
+        guid: f4247137570c964eb48cd21dc13db9b6
+      Path: Events\Default Work Unit\Washing_machine
       maxAttenuation: 0
-      maxDuration: 10.5
-      minDuration: 10.5
+      maxDuration: 5.2602496
+      minDuration: 5.2602496
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -343,8 +343,122 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: 4d5222ca40c956418d39532a641a1b08
     GuidInternal: 
-    m_lastTime: -8584420906888592845
-    List: []
+    m_lastTime: -8584418135698041281
+    List:
+    - name: RoomAmbience
+      guid: 1e13e34c0c20554daa6654160490dfb3
+      id: 539467320
+      PathAndIcons:
+      - ElementName: States
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 4d5222ca40c956418d39532a641a1b08
+      - ElementName: RoomAmbience
+        ObjectType: 9
+        guid: 1e13e34c0c20554daa6654160490dfb3
+      Path: States\Default Work Unit\RoomAmbience
+      values:
+      - name: Apartment
+        guid: 30eed2f211028041a1a1b1ed3eaec3b7
+        id: 4154495109
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 4d5222ca40c956418d39532a641a1b08
+        - ElementName: RoomAmbience
+          ObjectType: 9
+          guid: 1e13e34c0c20554daa6654160490dfb3
+        - ElementName: Apartment
+          ObjectType: 8
+          guid: 30eed2f211028041a1a1b1ed3eaec3b7
+      - name: Basement
+        guid: ded601db2c7a464d8d2f85965546a7b1
+        id: 1413413702
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 4d5222ca40c956418d39532a641a1b08
+        - ElementName: RoomAmbience
+          ObjectType: 9
+          guid: 1e13e34c0c20554daa6654160490dfb3
+        - ElementName: Basement
+          ObjectType: 8
+          guid: ded601db2c7a464d8d2f85965546a7b1
+      - name: Bathroom
+        guid: 902107581c3309419ca2b80d27d314f4
+        id: 1831461191
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 4d5222ca40c956418d39532a641a1b08
+        - ElementName: RoomAmbience
+          ObjectType: 9
+          guid: 1e13e34c0c20554daa6654160490dfb3
+        - ElementName: Bathroom
+          ObjectType: 8
+          guid: 902107581c3309419ca2b80d27d314f4
+      - name: Hallway
+        guid: e33165d0b79a51448553fa9aa5b3ae3a
+        id: 2198133169
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 4d5222ca40c956418d39532a641a1b08
+        - ElementName: RoomAmbience
+          ObjectType: 9
+          guid: 1e13e34c0c20554daa6654160490dfb3
+        - ElementName: Hallway
+          ObjectType: 8
+          guid: e33165d0b79a51448553fa9aa5b3ae3a
+      - name: Lobby
+        guid: 59e045b17350184cab68142ece02cade
+        id: 290285391
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 4d5222ca40c956418d39532a641a1b08
+        - ElementName: RoomAmbience
+          ObjectType: 9
+          guid: 1e13e34c0c20554daa6654160490dfb3
+        - ElementName: Lobby
+          ObjectType: 8
+          guid: 59e045b17350184cab68142ece02cade
+      - name: None
+        guid: b0a1f85bff77fc469349ef61cc9da552
+        id: 748895195
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 4d5222ca40c956418d39532a641a1b08
+        - ElementName: RoomAmbience
+          ObjectType: 9
+          guid: 1e13e34c0c20554daa6654160490dfb3
+        - ElementName: None
+          ObjectType: 8
+          guid: b0a1f85bff77fc469349ef61cc9da552
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
     PathAndIcons:
@@ -374,7 +488,7 @@ MonoBehaviour:
     m_lastTime: -8584420906888577508
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 0100000005000000060000000700000016000000
+  ExpandedWaapiItemIds: 0100000005000000060000000700000008000000160000001700000018000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

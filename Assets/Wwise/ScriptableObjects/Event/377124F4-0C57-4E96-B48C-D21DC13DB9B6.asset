@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 495c4e333cda30b47918947ba3366f39, type: 3}
-  m_Name: 5997C1B1-E736-42AF-AAFC-67D8FD4DA447
+  m_Name: 377124F4-0C57-4E96-B48C-D21DC13DB9B6
   m_EditorClassIdentifier: 
-  objectName: Wind
-  id: 1537061107
-  guid: 5997C1B1-E736-42AF-AAFC-67D8FD4DA447
+  objectName: Washing_machine
+  id: 768697242
+  guid: 377124F4-0C57-4E96-B48C-D21DC13DB9B6
   IsInUserDefinedSoundBank: 1

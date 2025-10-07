@@ -37,12 +37,8 @@ public class DialogueManager : MonoBehaviour
     public Queue<string> sentences;
     public Queue<string> names;
 
-    public AK.Wwise.Event roommateTalk;
-
     void Start()
     {
-        roommateTalk.Post(gameObject);
-
         sentences = new Queue<string>();
         names = new Queue<string>();          
     }
@@ -153,8 +149,10 @@ public class DialogueManager : MonoBehaviour
             }
             else
             {
+                AudioManager.Instance.CharacterSpeak(AudioManager.Characters.Player);
+
                 dialogueText.text += letter;
-                yield return new WaitForSeconds(textSpeed); ;
+                yield return new WaitForSeconds(textSpeed);
             }
         }    
     }

@@ -284,6 +284,13 @@
 					</ChildrenList>
 				</RandomSequenceContainer>
 				<RandomSequenceContainer Name="Pencil" ID="{0802E729-CBE7-42FE-A361-C8B24CB8BE6D}" ShortID="697913998">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>12</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C806748E-9264-49DF-A61D-13BEC75CDB7D}"/>
@@ -712,6 +719,11 @@
 								</ModifierInfo>
 							</ModifierList>
 						</Property>
+						<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+						<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+						<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+						<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="5"/>
+						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
@@ -767,6 +779,59 @@
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
+					<StateInfo>
+						<StateGroupList>
+							<StateGroupInfo>
+								<StateGroupRef Name="RoomAmbience" ID="{4CE3131E-200C-4D55-AA66-54160490DFB3}"/>
+							</StateGroupInfo>
+						</StateGroupList>
+						<CustomStateList>
+							<CustomState>
+								<StateRef Name="Bathroom" ID="{58072190-331C-4109-9CA2-B80D27D314F4}"/>
+								<CustomState Name="" ID="{AE3A6ECC-00AF-4599-BFC9-C4BFD959AE18}" ShortID="437201401">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64" Value="-108"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Apartment" ID="{F2D2EE30-0211-4180-A1A1-B1ED3EAEC3B7}"/>
+								<CustomState Name="" ID="{F1FA4E83-6B32-4360-AABC-277BE34B6AB3}" ShortID="852514563">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64" Value="-108"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Hallway" ID="{D06531E3-9AB7-4451-8553-FA9AA5B3AE3A}"/>
+								<CustomState Name="" ID="{EA8C1D83-A90B-4093-90E6-9954A6102EBF}" ShortID="731143433"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="None" ID="{5BF8A1B0-77FF-46FC-9349-EF61CC9DA552}"/>
+								<CustomState Name="" ID="{552AA652-F28A-4F28-B1E4-C9D0A8F53EA0}" ShortID="211676046">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64" Value="-108"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Lobby" ID="{B145E059-5073-4C18-AB68-142ECE02CADE}"/>
+								<CustomState Name="" ID="{7D328161-E405-481D-B303-B8554953440A}" ShortID="175813745">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64" Value="-108"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Basement" ID="{DB01D6DE-7A2C-4D46-8D2F-85965546A7B1}"/>
+								<CustomState Name="" ID="{8FF85F8D-4B5F-4E78-A746-8F17FA107681}" ShortID="484868633">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64" Value="-108"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+						</CustomStateList>
+					</StateInfo>
 				</RandomSequenceContainer>
 				<Sound Name="Tvstatic" ID="{3381FD21-BAAC-4AC1-986D-A9FE48343A46}" ShortID="14136205">
 					<PropertyList>
@@ -789,6 +854,59 @@
 							</MediaIDList>
 						</AudioFileSource>
 					</ChildrenList>
+					<StateInfo>
+						<StateGroupList>
+							<StateGroupInfo>
+								<StateGroupRef Name="RoomAmbience" ID="{4CE3131E-200C-4D55-AA66-54160490DFB3}"/>
+							</StateGroupInfo>
+						</StateGroupList>
+						<CustomStateList>
+							<CustomState>
+								<StateRef Name="Bathroom" ID="{58072190-331C-4109-9CA2-B80D27D314F4}"/>
+								<CustomState Name="" ID="{21EDF627-037B-41A3-AB03-35B16CC0D3D0}" ShortID="1036748192"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Apartment" ID="{F2D2EE30-0211-4180-A1A1-B1ED3EAEC3B7}"/>
+								<CustomState Name="" ID="{3DE5A117-5DC8-4F54-AB58-650FBCEF0CE8}" ShortID="646934252">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64" Value="-108"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Hallway" ID="{D06531E3-9AB7-4451-8553-FA9AA5B3AE3A}"/>
+								<CustomState Name="" ID="{DA56BA83-77A0-470A-89BB-7C5A8F0694DE}" ShortID="1061183454">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64" Value="-108"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="None" ID="{5BF8A1B0-77FF-46FC-9349-EF61CC9DA552}"/>
+								<CustomState Name="" ID="{F0A0F166-9159-41EB-B0C4-9A70F9267CAA}" ShortID="515912939">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64" Value="-108"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Lobby" ID="{B145E059-5073-4C18-AB68-142ECE02CADE}"/>
+								<CustomState Name="" ID="{7DE67778-AC04-425F-A16C-EC8711442701}" ShortID="478792591">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64" Value="-108"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Basement" ID="{DB01D6DE-7A2C-4D46-8D2F-85965546A7B1}"/>
+								<CustomState Name="" ID="{2C6A3618-D1DF-4CFE-8808-F68CB6DEF97A}" ShortID="916851062">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64" Value="-108"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+						</CustomStateList>
+					</StateInfo>
 					<ActiveSourceList>
 						<ActiveSource Name="Wind" ID="{32133E4D-6EA8-4FDF-9065-206A89464E94}" Platform="Linked"/>
 					</ActiveSourceList>
@@ -858,6 +976,59 @@
 							</MediaIDList>
 						</AudioFileSource>
 					</ChildrenList>
+					<StateInfo>
+						<StateGroupList>
+							<StateGroupInfo>
+								<StateGroupRef Name="RoomAmbience" ID="{4CE3131E-200C-4D55-AA66-54160490DFB3}"/>
+							</StateGroupInfo>
+						</StateGroupList>
+						<CustomStateList>
+							<CustomState>
+								<StateRef Name="Bathroom" ID="{58072190-331C-4109-9CA2-B80D27D314F4}"/>
+								<CustomState Name="" ID="{56B4B707-AF7D-4155-A2E7-833B1F234A63}" ShortID="334967640">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64" Value="-20"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Apartment" ID="{F2D2EE30-0211-4180-A1A1-B1ED3EAEC3B7}"/>
+								<CustomState Name="" ID="{EE141B8B-D48D-4190-9998-B294C43B517F}" ShortID="24665262">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64" Value="-5"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Hallway" ID="{D06531E3-9AB7-4451-8553-FA9AA5B3AE3A}"/>
+								<CustomState Name="" ID="{77769870-7919-4777-B273-7761C5413F05}" ShortID="932112254"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="None" ID="{5BF8A1B0-77FF-46FC-9349-EF61CC9DA552}"/>
+								<CustomState Name="" ID="{8188C00D-0DB1-41E7-94D7-7530E96F54B4}" ShortID="210923085">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64" Value="-108"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Lobby" ID="{B145E059-5073-4C18-AB68-142ECE02CADE}"/>
+								<CustomState Name="" ID="{FE88739D-BCD9-4747-978A-55FDAC79B277}" ShortID="475589717">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64" Value="-15"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Basement" ID="{DB01D6DE-7A2C-4D46-8D2F-85965546A7B1}"/>
+								<CustomState Name="" ID="{828BBEAD-F774-4163-ACBF-581162CE775F}" ShortID="801904037">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64" Value="-5"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+						</CustomStateList>
+					</StateInfo>
 					<ActiveSourceList>
 						<ActiveSource Name="wind_actual" ID="{0288C2B5-737D-4AB3-85C8-622532B539EC}" Platform="Linked"/>
 					</ActiveSourceList>

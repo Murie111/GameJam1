@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{CA22524D-C940-4156-8D39-532A641A1B08}" SchemaVersion="123">
 	<States>
-		<WorkUnit Name="Default Work Unit" ID="{CA22524D-C940-4156-8D39-532A641A1B08}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{CA22524D-C940-4156-8D39-532A641A1B08}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="RoomAmbience" ID="{4CE3131E-200C-4D55-AA66-54160490DFB3}">
+					<ChildrenList>
+						<State Name="None" ID="{5BF8A1B0-77FF-46FC-9349-EF61CC9DA552}"/>
+						<State Name="Hallway" ID="{D06531E3-9AB7-4451-8553-FA9AA5B3AE3A}"/>
+						<State Name="Apartment" ID="{F2D2EE30-0211-4180-A1A1-B1ED3EAEC3B7}"/>
+						<State Name="Bathroom" ID="{58072190-331C-4109-9CA2-B80D27D314F4}"/>
+						<State Name="Basement" ID="{DB01D6DE-7A2C-4D46-8D2F-85965546A7B1}"/>
+						<State Name="Lobby" ID="{B145E059-5073-4C18-AB68-142ECE02CADE}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
 	</States>
 </WwiseDocument>
