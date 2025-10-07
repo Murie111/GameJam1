@@ -220,7 +220,6 @@ public class DialogueManager : MonoBehaviour
         animator.SetBool("isOpen", false);
         NPCInteract passScript = (NPCInteract)currentNPC.GetComponent(typeof(NPCInteract));
         passScript.EndTalking();
-        logicScript.spiral += 1;
         logicScript.failBlink();
 
     }
