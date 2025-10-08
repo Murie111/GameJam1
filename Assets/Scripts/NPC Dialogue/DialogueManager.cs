@@ -92,6 +92,13 @@ public class DialogueManager : MonoBehaviour
                 nextSentenceButton.SetActive(false);
                 yield return new WaitForSeconds(textSpeed);
             }
+            else if (letter == ('-'))
+            {
+                isChoice = false;
+                nextSentenceButton.SetActive(true);
+                yield return new WaitForSeconds(textSpeed);
+            }
+
             else if (letter == ('1'))
             {
                 roommate1option1.SetActive(true);

@@ -12,6 +12,7 @@ public class RoomSwap : MonoBehaviour
     public float jobAnimTimeFull;
     public float jobAnimTimeClose;
 
+    //19- menu
     //0- bedroom
     //1- bathroom
     //2- apartment

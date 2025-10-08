@@ -134,7 +134,8 @@ public class Logic : MonoBehaviour
     void enableEnd()
     {
         endScreen.SetActive(true);
-       }
+        Invoke("exitGame", 5f);
+    }
 
     public void pixelChanger()
     {
@@ -250,6 +251,12 @@ public class Logic : MonoBehaviour
         {
             goodEnd.SetActive(true);
         }
+    }
+
+
+    public void exitGame()
+    {
+        Application.Quit();
     }
 
 }
